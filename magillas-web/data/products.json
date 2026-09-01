@@ -1,0 +1,4594 @@
+{
+  "config": {
+    "whatsapp": "573165864539",
+    "email": "accessoriesmagillas@gmail.com",
+    "mayoristaWhatsapp": "573165864539",
+    "mayoristaMensaje": "Hola Magillas, me interesa comprar al por mayor. ¿Me pueden enviar el catálogo y precios mayoristas?",
+    "envioGratisDesde": 150000,
+    "cupones": {
+      "BIENVENIDA10": 10
+    },
+    "redes": {
+      "instagram": "https://www.instagram.com/magillas_accesorios/",
+      "facebook": "https://www.facebook.com/share/1BNg1zwCJL/?mibextid=wwXIfr",
+      "tiktok": "https://www.tiktok.com/@magillas_accesorio?_r=1&_t=ZS-92qqy77hU5h"
+    },
+    "envios": [
+      {
+        "id": "recogida",
+        "nombre": "Recogida en Cali",
+        "precio": 0
+      },
+      {
+        "id": "cali",
+        "nombre": "Domicilio en Cali",
+        "precio": 8000
+      },
+      {
+        "id": "nacional",
+        "nombre": "Envío nacional (Interrapidísimo / Servientrega)",
+        "precio": 12000
+      }
+    ],
+    "politicas": {
+      "envio": "Todos los pedidos se procesan en 1–2 días hábiles tras confirmar la compra. Envíos con Interrapidísimo: Cali 1–2 días, ciudades principales 2–4 días, municipios 4–7 días hábiles.",
+      "devoluciones": "5 días hábiles desde la entrega para reportar faltantes. Cambios solo por defecto de fabricación o producto incorrecto. Personalizados sin cambio por retracto. Anillos sin cambio por talla.",
+      "pagos": "Nequi, transferencia, contraentrega y Addi (cuotas) según disponibilidad al confirmar por WhatsApp."
+    },
+    "ocasiones": [
+      {
+        "id": "san-valentin",
+        "nombre": "San Valentín",
+        "desc": "Regalos con amor para pareja",
+        "img": "/img/shop/collar-carta.jpg",
+        "productos": [
+          "collar-carta",
+          "collar-corazon-cupido",
+          "collar-doble-dije",
+          "anillo-plateado",
+          "collar-corazon-esmeralda"
+        ]
+      },
+      {
+        "id": "dia-madre",
+        "nombre": "Día de la Madre",
+        "desc": "Detalles que emocionan a mamá",
+        "img": "/img/shop/collar-barra.jpg",
+        "productos": [
+          "collar-carta",
+          "collar-barra",
+          "pulsera-barca",
+          "relicarios-individuales",
+          "pulsera-letras"
+        ]
+      },
+      {
+        "id": "dia-padre",
+        "nombre": "Día del Padre",
+        "desc": "Placas y esclavas para papá",
+        "img": "/img/shop/collar-militar.jpg",
+        "productos": [
+          "collar-militar",
+          "pulsera-esclava",
+          "pulsera-letras"
+        ]
+      },
+      {
+        "id": "navidad",
+        "nombre": "Navidad",
+        "desc": "Regalos con estuche incluido",
+        "img": "/img/shop/estuche-rosa.jpg",
+        "productos": [
+          "estuche-rosa",
+          "collar-carta",
+          "camandula-premium",
+          "collar-argollar"
+        ]
+      }
+    ],
+    "beneficios": [
+      "🎁 Estuche de regalo incluido",
+      "🚚 Envío nacional gratis desde $150.000",
+      "💳 PSE · Nequi · Tarjeta · Contraentrega",
+      "✨ Vista previa antes de pagar"
+    ],
+    "pagosOnline": true,
+    "addiDesde": 100000,
+    "upsells": [
+      {
+        "id": "decorative-gift-bag-for-special-occasions",
+        "label": "Bolsa de regalo premium"
+      },
+      {
+        "id": "estuche-amor",
+        "label": "Estuche corazón"
+      }
+    ],
+    "empaquePremium": {
+      "id": "decorative-gift-bag-for-special-occasions",
+      "precio": 7900
+    },
+    "addi": {
+      "activo": true,
+      "desde": 100000,
+      "url": "https://www.addi.com/co/compradores/como-funciona-addi/"
+    },
+    "analytics": {
+      "ga4": "",
+      "metaPixel": ""
+    },
+    "quizRegalo": {
+      "preguntas": [
+        {
+          "id": "para",
+          "texto": "¿Para quién es el regalo?",
+          "opciones": [
+            {
+              "v": "pareja",
+              "l": "Mi pareja"
+            },
+            {
+              "v": "madre",
+              "l": "Mamá"
+            },
+            {
+              "v": "padre",
+              "l": "Papá / militar"
+            },
+            {
+              "v": "amigo",
+              "l": "Amigo/a"
+            }
+          ]
+        },
+        {
+          "id": "presupuesto",
+          "texto": "¿Cuál es tu presupuesto?",
+          "opciones": [
+            {
+              "v": "bajo",
+              "l": "Hasta $50.000"
+            },
+            {
+              "v": "medio",
+              "l": "$50.000 – $100.000"
+            },
+            {
+              "v": "alto",
+              "l": "Más de $100.000"
+            }
+          ]
+        },
+        {
+          "id": "tipo",
+          "texto": "¿Qué tipo de pieza buscas?",
+          "opciones": [
+            {
+              "v": "collar",
+              "l": "Collar"
+            },
+            {
+              "v": "pulsera",
+              "l": "Pulsera"
+            },
+            {
+              "v": "foto",
+              "l": "Con foto / relicario"
+            },
+            {
+              "v": "militar",
+              "l": "Placa militar"
+            }
+          ]
+        }
+      ],
+      "mapa": {
+        "pareja|medio|collar": [
+          "collar-carta",
+          "collar-doble-dije",
+          "collar-corazon-cupido"
+        ],
+        "madre|medio|collar": [
+          "collar-carta",
+          "collar-barra",
+          "relicarios-individuales"
+        ],
+        "padre|medio|militar": [
+          "collar-militar",
+          "pulsera-esclava",
+          "collar-mini-placa-militar"
+        ],
+        "amigo|bajo|pulsera": [
+          "pulsera-letras",
+          "pulsera-esclava",
+          "pulsera-barca"
+        ],
+        "pareja|alto|foto": [
+          "relicarios-individuales",
+          "collar-corazon-cupido",
+          "collar-carta"
+        ]
+      }
+    }
+  },
+  "categorias": [
+    {
+      "id": "ofertas",
+      "nombre": "Ofertas",
+      "desc": "Descuentos y promociones",
+      "img": "/img/shop/anillo-antiestres.jpg"
+    },
+    {
+      "id": "personalizables",
+      "nombre": "Personalizables",
+      "desc": "Piezas grabadas con tu foto, nombre o mensaje",
+      "img": "/img/shop/collar-argollar.jpg"
+    },
+    {
+      "id": "te-amo-100-idiomas",
+      "nombre": "Te amo 100 idiomas",
+      "desc": "Collares y anillos con mensaje oculto",
+      "img": "/img/shop/anillo-princesa-te-amo-100-idiomas.jpg"
+    },
+    {
+      "id": "seleccion-colombia",
+      "nombre": "Selección Colombia",
+      "desc": "Orgullo tricolor 🇨🇴",
+      "img": "/img/shop/handmade-colombian-flag-soccer-ball-charm-bracelet.jpg"
+    },
+    {
+      "id": "collares",
+      "nombre": "Collares",
+      "desc": "Cadenas y dijes que cuentan historias",
+      "img": "/img/shop/collar-alma.jpg"
+    },
+    {
+      "id": "pulseras-neopreno",
+      "nombre": "Pulseras neopreno",
+      "desc": "Neopreno, mostacilla y dijes hechos a mano",
+      "img": "/img/shop/pulsera-3-neopreno.jpg"
+    },
+    {
+      "id": "pulseras-tejidas",
+      "nombre": "Pulseras tejidas",
+      "desc": "Tejidas a mano con mostacilla",
+      "img": "/img/shop/pulsera-amatista-tejida.jpg"
+    },
+    {
+      "id": "candongas",
+      "nombre": "Candongas",
+      "desc": "Aretes tipo candonga",
+      "img": "/img/shop/candonga-delgada.jpg"
+    },
+    {
+      "id": "anillos",
+      "nombre": "Anillos",
+      "desc": "Anillos y sortijas",
+      "img": "/img/shop/anillo-rose-tous.jpg"
+    },
+    {
+      "id": "camandulas",
+      "nombre": "Camándulas",
+      "desc": "Camándulas y rosarios",
+      "img": "/img/shop/camandula-1.png"
+    },
+    {
+      "id": "brazaletes",
+      "nombre": "Brazaletes",
+      "desc": "Brazaletes rígidos y abiertos",
+      "img": "/img/shop/brazalete-arbol-de-vida.jpg"
+    },
+    {
+      "id": "tobilleras",
+      "nombre": "Tobilleras",
+      "desc": "Tobilleras y cadenas para tobillo",
+      "img": "/img/shop/tobillera-7-nudos-proteccion.jpg"
+    },
+    {
+      "id": "estuches",
+      "nombre": "Estuches",
+      "desc": "Estuches y empaques regalo",
+      "img": "/img/shop/decorative-gift-bag-for-special-occasions.jpg"
+    },
+    {
+      "id": "otros",
+      "nombre": "Otros",
+      "desc": "Más detalles Magillas",
+      "img": "/img/shop/pulsersa-vibora.jpg"
+    }
+  ],
+  "productos": [
+    {
+      "id": "anillo-rose-tous",
+      "nombre": "Anillo rose tous",
+      "categoria": "anillos",
+      "precio": 28000,
+      "img": "/img/shop/anillo-rose-tous-0.jpg",
+      "desc": "Elaborado en rodio.",
+      "imgs": [
+        "/img/shop/anillo-rose-tous-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "anillo-tejido",
+      "nombre": "Anillo tejido",
+      "categoria": "anillos",
+      "precio": 18000,
+      "img": "/img/shop/anillo-tejido-0.jpg",
+      "desc": "Anillo tejido, ajustable.",
+      "imgs": [
+        "/img/shop/anillo-tejido-0.jpg",
+        "/img/shop/anillo-tejido-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "anillo-plateado",
+      "nombre": "Anillos personalizados",
+      "categoria": "anillos",
+      "precio": 60000,
+      "img": "/img/shop/anillo-plateado-0.jpg",
+      "desc": "Par de argollas plateadas, elaboradas en acero inoxidable. TALLAS DISPONIBLES *6-12 Puedes personalizarlas como desees, marcadas por dentro y por fuera con (fecha, mini figuras, frases cortas e iniciales)",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 2,
+        "x": 48,
+        "y": 52,
+        "rot": -14,
+        "size": 1.7,
+        "color": "#2a2218",
+        "placeholder": "Amor",
+        "anchoMax": 14,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/anillo-plateado-0.jpg",
+        "/img/shop/anillo-plateado-1.jpg",
+        "/img/shop/anillo-plateado-2.jpg",
+        "/img/shop/anillo-plateado-3.jpg",
+        "/img/shop/anillo-plateado-4.jpg",
+        "/img/shop/anillo-plateado-5.jpg"
+      ],
+      "stock": 50,
+      "badge": "Oferta"
+    },
+    {
+      "id": "brazalete-cruces",
+      "nombre": "Brazalete cruces",
+      "categoria": "brazaletes",
+      "precio": 20000,
+      "img": "/img/shop/brazalete-cruces-0.jpg",
+      "desc": "Brazalete elaborado en rodio.",
+      "imgs": [
+        "/img/shop/brazalete-cruces-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-cruz",
+      "nombre": "Brazalete Cruz",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-cruz-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-cruz-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-en-el-aire",
+      "nombre": "Brazalete en el aire",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-en-el-aire-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-en-el-aire-0.jpg",
+        "/img/shop/brazalete-en-el-aire-1.jpg",
+        "/img/shop/brazalete-en-el-aire-2.jpg",
+        "/img/shop/brazalete-en-el-aire-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-proteccion",
+      "nombre": "Brazalete protección",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-proteccion-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-proteccion-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-rolex",
+      "nombre": "Brazalete rolex",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-rolex-0.jpg",
+      "desc": "Elaborado en acero inoxidable y rodio",
+      "imgs": [
+        "/img/shop/brazalete-rolex-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-san-benito",
+      "nombre": "Brazalete San Benito",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-san-benito-0.jpg",
+      "desc": "Elaborado en acero inoxidable quirúrgico y dije en rodio.",
+      "imgs": [
+        "/img/shop/brazalete-san-benito-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-snake",
+      "nombre": "Brazalete vivora",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-snake-0.jpg",
+      "desc": "Brazalete elaborado en rodio.",
+      "imgs": [
+        "/img/shop/brazalete-snake-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-arbol-de-vida",
+      "nombre": "Brazalete árbol de vida",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-arbol-de-vida-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-arbol-de-vida-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "camandula-1",
+      "nombre": "Camandula 1",
+      "categoria": "camandulas",
+      "precio": 40000,
+      "img": "/img/shop/camandula-1-0.png",
+      "desc": "Camandula 1",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/camandula-1-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "camandula-2",
+      "nombre": "Camandula 2",
+      "categoria": "camandulas",
+      "precio": 50000,
+      "img": "/img/shop/camandula-2-0.png",
+      "desc": "Camandula 2",
+      "imgs": [
+        "/img/shop/camandula-2-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "camandula-3",
+      "nombre": "Camandula 3",
+      "categoria": "camandulas",
+      "precio": 65000,
+      "img": "/img/shop/camandula-3-0.png",
+      "desc": "Camandula 3",
+      "imgs": [
+        "/img/shop/camandula-3-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "camandula-4",
+      "nombre": "Camandula 4",
+      "categoria": "camandulas",
+      "precio": 80000,
+      "img": "/img/shop/camandula-4-0.png",
+      "desc": "Elaborada en acero inoxidable y neopreno.",
+      "imgs": [
+        "/img/shop/camandula-4-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "camandula-premium",
+      "nombre": "Camandula premium",
+      "categoria": "camandulas",
+      "precio": 100000,
+      "img": "/img/shop/camandula-premium-0.png",
+      "desc": "Elaborada en acero inoxidable y neopreno.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/camandula-premium-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "camandula-set",
+      "nombre": "Camandula Set",
+      "categoria": "camandulas",
+      "precio": 105000,
+      "img": "/img/shop/camandula-set-0.png",
+      "desc": "Elaborada en acero inoxidable, rodio y neopreno Pulsera + camandula",
+      "imgs": [
+        "/img/shop/camandula-set-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "candonga-delgada",
+      "nombre": "Candonga delgada",
+      "categoria": "candongas",
+      "precio": 12000,
+      "img": "/img/shop/candonga-delgada-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/candonga-delgada-0.jpg",
+        "/img/shop/candonga-delgada-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "candonga-dorada",
+      "nombre": "Candonga dorada",
+      "categoria": "candongas",
+      "precio": 25000,
+      "img": "/img/shop/candonga-dorada-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/candonga-dorada-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "candonga-grande",
+      "nombre": "Candonga grande",
+      "categoria": "candongas",
+      "precio": 16000,
+      "img": "/img/shop/candonga-grande-0.jpg",
+      "desc": "Candonga grande",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/candonga-grande-0.jpg",
+        "/img/shop/candonga-grande-1.jpg"
+      ],
+      "stock": 50,
+      "precioAntes": 35000
+    },
+    {
+      "id": "candonga-mini",
+      "nombre": "Candonga mini",
+      "categoria": "candongas",
+      "precio": 14000,
+      "img": "/img/shop/candonga-mini-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/candonga-mini-0.jpg",
+        "/img/shop/candonga-mini-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "candongas-plateadas",
+      "nombre": "Candongas plateadas",
+      "categoria": "candongas",
+      "precio": 25000,
+      "img": "/img/shop/candongas-plateadas-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/candongas-plateadas-0.jpg",
+        "/img/shop/candongas-plateadas-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-alma",
+      "nombre": "Collar alma",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-alma-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-alma-0.jpg",
+        "/img/shop/collar-alma-1.jpg",
+        "/img/shop/collar-alma-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-amor",
+      "nombre": "Collar amor",
+      "categoria": "collares",
+      "precio": 26000,
+      "img": "/img/shop/collar-amor-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-amor-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-balon-futbol",
+      "nombre": "Collar balón fútbol",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-balon-futbol-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-balon-futbol-0.jpg",
+        "/img/shop/collar-balon-futbol-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-cabeza-de-caballo",
+      "nombre": "Collar Cabeza de caballo",
+      "categoria": "collares",
+      "precio": 32000,
+      "img": "/img/shop/collar-cabeza-de-caballo-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-cabeza-de-caballo-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-corazon",
+      "nombre": "Collar corazón",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-corazon-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable",
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-corazon-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-corazon-plateado",
+      "nombre": "Collar corazón",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-corazon-plateado-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-corazon-plateado-0.jpg",
+        "/img/shop/collar-corazon-plateado-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-corazon-con-alas",
+      "nombre": "Collar corazón con alas",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-corazon-con-alas-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-corazon-con-alas-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-corazon-cupido",
+      "nombre": "Collar corazón cupido",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-corazon-cupido-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable quirúrgico y dije en rodio.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/collar-corazon-cupido-0.jpg"
+      ],
+      "stock": 50,
+      "precioAntes": 55000
+    },
+    {
+      "id": "collar-corazon-esmeralda",
+      "nombre": "Collar corazón esmeralda",
+      "categoria": "collares",
+      "precio": 27000,
+      "img": "/img/shop/collar-corazon-esmeralda-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/collar-corazon-esmeralda-0.jpg",
+        "/img/shop/collar-corazon-esmeralda-1.jpg",
+        "/img/shop/collar-corazon-esmeralda-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-cruces",
+      "nombre": "Collar cruces",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-cruces-0.jpg",
+      "desc": "Elaborado en rodio.",
+      "imgs": [
+        "/img/shop/collar-cruces-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-cuarzo",
+      "nombre": "Collar Cuarzo",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-cuarzo-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-cuarzo-0.jpg",
+        "/img/shop/collar-cuarzo-1.jpg",
+        "/img/shop/collar-cuarzo-2.jpg",
+        "/img/shop/collar-cuarzo-3.jpg",
+        "/img/shop/collar-cuarzo-4.jpg",
+        "/img/shop/collar-cuarzo-5.jpg",
+        "/img/shop/collar-cuarzo-6.jpg",
+        "/img/shop/collar-cuarzo-7.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-dulce-nina",
+      "nombre": "Collar dulce niña",
+      "categoria": "collares",
+      "precio": 40000,
+      "img": "/img/shop/collar-dulce-nina-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-dulce-nina-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-en-set",
+      "nombre": "Collar en set",
+      "categoria": "collares",
+      "precio": 28000,
+      "img": "/img/shop/collar-en-set-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 62,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#2a2210",
+        "placeholder": "Amor",
+        "anchoMax": 30,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-en-set-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-esmeralda-doble",
+      "nombre": "Collar esmeralda doble",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-esmeralda-doble-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-esmeralda-doble-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-estrella-plateada",
+      "nombre": "Collar estrella",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-estrella-plateada-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-estrella-plateada-0.jpg",
+        "/img/shop/collar-estrella-plateada-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-estrella-fugaz",
+      "nombre": "Collar estrella fugaz",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-estrella-fugaz-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable quirúrgico y dije en rodio.",
+      "imgs": [
+        "/img/shop/collar-estrella-fugaz-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-estrella-magenta",
+      "nombre": "Collar estrella magenta",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-estrella-magenta-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-estrella-magenta-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-estrella-negra",
+      "nombre": "Collar estrella negra",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-estrella-negra-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-estrella-negra-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-estrellas-negras",
+      "nombre": "Collar Estrellas negras",
+      "categoria": "collares",
+      "precio": 35000,
+      "img": "/img/shop/collar-estrellas-negras-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-estrellas-negras-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-fugaz-verde",
+      "nombre": "Collar Fugaz verde",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-fugaz-verde-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-fugaz-verde-0.jpg",
+        "/img/shop/collar-fugaz-verde-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-green-heart",
+      "nombre": "Collar green heart",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-green-heart-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-green-heart-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-heart",
+      "nombre": "Collar Heart",
+      "categoria": "collares",
+      "precio": 12500,
+      "img": "/img/shop/collar-heart-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "precioAntes": 25000,
+      "imgs": [
+        "/img/shop/collar-heart-0.jpg",
+        "/img/shop/collar-heart-1.jpg",
+        "/img/shop/collar-heart-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-lego",
+      "nombre": "Collar lego",
+      "categoria": "collares",
+      "precio": 35000,
+      "img": "/img/shop/collar-lego-0.jpg",
+      "desc": "Collar elaborado en legó y cadena en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-lego-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-letras",
+      "nombre": "Collar letras",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-letras-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable. 4 LETRAS $22.000 5 LETRAS $24,000 6 LETRAS $26,000 7 LETRAS $28,000 8 LETRAS $30,000 9 LETRAS $35,000",
+      "imgs": [
+        "/img/shop/collar-letras-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-luna-1",
+      "nombre": "Collar luna",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-luna-1-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-luna-1-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-mano-turca",
+      "nombre": "Collar mano turca",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-mano-turca-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-mano-turca-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-mariposa",
+      "nombre": "Collar mariposa",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-mariposa-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-mariposa-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-mariposas",
+      "nombre": "Collar mariposas",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-mariposas-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-mariposas-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-osito",
+      "nombre": "Collar osito",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-osito-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-osito-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-planeta",
+      "nombre": "Collar planeta",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-planeta-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-planeta-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-redondo-amor",
+      "nombre": "Collar redondo amor",
+      "categoria": "collares",
+      "precio": 70000,
+      "img": "/img/shop/collar-redondo-amor-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginación. Precio por par La personalización de este collar te permite subir una figura en vector (NO FOTOS). La imagen que subas y la frase serán la misma para las dos cadenas",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 64,
+        "rot": 0,
+        "size": 5,
+        "color": "#2a2210",
+        "placeholder": "Amor",
+        "anchoMax": 22,
+        "font": "'Great Vibes', cursive",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-redondo-amor-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-reyes",
+      "nombre": "Collar reyes",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-reyes-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-reyes-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "decorative-gift-bag-for-special-occasions",
+      "nombre": "Bolsa de regalo",
+      "categoria": "estuches",
+      "precio": 7000,
+      "img": "/img/shop/decorative-gift-bag-for-special-occasions-0.jpg",
+      "desc": "Bolsa de regalo my beloved, ideal para esa persona especial y momentos especiales.",
+      "imgs": [
+        "/img/shop/decorative-gift-bag-for-special-occasions-0.jpg",
+        "/img/shop/decorative-gift-bag-for-special-occasions-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "estuche-amor",
+      "nombre": "Estuche amor",
+      "categoria": "estuches",
+      "precio": 18000,
+      "img": "/img/shop/estuche-amor-0.jpg",
+      "desc": "Estuche amor",
+      "imgs": [
+        "/img/shop/estuche-amor-0.jpg",
+        "/img/shop/estuche-amor-1.jpg",
+        "/img/shop/estuche-amor-2.jpg",
+        "/img/shop/estuche-amor-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "estuche-birrete",
+      "nombre": "Estuche birrete",
+      "categoria": "estuches",
+      "precio": 15000,
+      "img": "/img/shop/estuche-birrete-0.jpg",
+      "desc": "Estuche birrete",
+      "imgs": [
+        "/img/shop/estuche-birrete-0.jpg",
+        "/img/shop/estuche-birrete-1.jpg",
+        "/img/shop/estuche-birrete-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "estuche-carro",
+      "nombre": "Estuche carro",
+      "categoria": "estuches",
+      "precio": 15000,
+      "img": "/img/shop/estuche-carro-0.jpg",
+      "desc": "solo incluye el estuche * no incluye anillo *",
+      "imgs": [
+        "/img/shop/estuche-carro-0.jpg",
+        "/img/shop/estuche-carro-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "estuche-cora-rosa",
+      "nombre": "Estuche cora rosa",
+      "categoria": "estuches",
+      "precio": 15000,
+      "img": "/img/shop/estuche-cora-rosa-0.jpg",
+      "desc": "Estuche cora rosa",
+      "imgs": [
+        "/img/shop/estuche-cora-rosa-0.jpg",
+        "/img/shop/estuche-cora-rosa-1.jpg",
+        "/img/shop/estuche-cora-rosa-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "estuche-flor",
+      "nombre": "Estuche flor",
+      "categoria": "estuches",
+      "precio": 15000,
+      "img": "/img/shop/estuche-flor-0.jpg",
+      "desc": "Estuche flor",
+      "imgs": [
+        "/img/shop/estuche-flor-0.jpg",
+        "/img/shop/estuche-flor-1.jpg",
+        "/img/shop/estuche-flor-2.jpg",
+        "/img/shop/estuche-flor-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "estuche-oliva",
+      "nombre": "Estuche oliva",
+      "categoria": "estuches",
+      "precio": 20000,
+      "img": "/img/shop/estuche-oliva-0.jpg",
+      "desc": "Estuche oliva",
+      "imgs": [
+        "/img/shop/estuche-oliva-0.jpg",
+        "/img/shop/estuche-oliva-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "estuche-rosa",
+      "nombre": "Estuche rosa",
+      "categoria": "estuches",
+      "precio": 15000,
+      "img": "/img/shop/estuche-rosa-0.jpg",
+      "desc": "Estuche rosa",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/estuche-rosa-0.jpg",
+        "/img/shop/estuche-rosa-1.jpg",
+        "/img/shop/estuche-rosa-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "decorative-rose-jewelry-gift-box",
+      "nombre": "Estuche Rosa eterna",
+      "categoria": "estuches",
+      "precio": 25000,
+      "img": "/img/shop/decorative-rose-jewelry-gift-box-0.jpg",
+      "desc": "Hermoso estuche de rosa encapsulada donde puedes colocar nuestras piezas de joyería.",
+      "imgs": [
+        "/img/shop/decorative-rose-jewelry-gift-box-0.jpg",
+        "/img/shop/decorative-rose-jewelry-gift-box-1.jpg",
+        "/img/shop/decorative-rose-jewelry-gift-box-2.jpg",
+        "/img/shop/decorative-rose-jewelry-gift-box-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "portable-travel-jewelry-organizer-storage-case",
+      "nombre": "Joyero viajero",
+      "categoria": "estuches",
+      "precio": 18000,
+      "img": "/img/shop/portable-travel-jewelry-organizer-storage-case-0.jpg",
+      "desc": "Joyero viajero portatil con cierre medidas : 10x10x5cm",
+      "imgs": [
+        "/img/shop/portable-travel-jewelry-organizer-storage-case-0.jpg",
+        "/img/shop/portable-travel-jewelry-organizer-storage-case-1.jpg",
+        "/img/shop/portable-travel-jewelry-organizer-storage-case-2.jpg",
+        "/img/shop/portable-travel-jewelry-organizer-storage-case-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "anillo-antiestres",
+      "nombre": "Anillo antiestrés",
+      "categoria": "ofertas",
+      "precio": 20000,
+      "img": "/img/shop/anillo-antiestres-0.jpg",
+      "desc": "Anillo elaborado en acero inoxidable. Antiestr é s",
+      "precioAntes": 40000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/anillo-antiestres-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "anillos-de-compromiso-de-oro-con-diseno-de-corazon",
+      "nombre": "Anillo love",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/anillos-de-compromiso-de-oro-con-diseno-de-corazon-0.jpg",
+      "desc": "Anillo elaborado en acero inoxidable.",
+      "precioAntes": 36000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/anillos-de-compromiso-de-oro-con-diseno-de-corazon-0.jpg",
+        "/img/shop/anillos-de-compromiso-de-oro-con-diseno-de-corazon-1.jpg",
+        "/img/shop/anillos-de-compromiso-de-oro-con-diseno-de-corazon-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "anillo-signos",
+      "nombre": "Anillo signos",
+      "categoria": "ofertas",
+      "precio": 17000,
+      "img": "/img/shop/anillo-signos-0.jpg",
+      "desc": "Anillo elaborado en acero inoxidable. alumbra en la oscuridad",
+      "precioAntes": 34000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/anillo-signos-0.jpg",
+        "/img/shop/anillo-signos-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-change",
+      "nombre": "Collar change",
+      "categoria": "ofertas",
+      "precio": 20000,
+      "img": "/img/shop/collar-change-0.jpg",
+      "desc": "elaborado en acero inoxidable. cambia de color con la temperatura",
+      "precioAntes": 40000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-change-0.jpg",
+        "/img/shop/collar-change-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-estrella-6-puntas",
+      "nombre": "Collar estrella 6 puntas",
+      "categoria": "ofertas",
+      "precio": 25000,
+      "img": "/img/shop/collar-estrella-6-puntas-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-estrella-6-puntas-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-con-colgante-de-perro-globo-de-metal",
+      "nombre": "Collar globo",
+      "categoria": "ofertas",
+      "precio": 15000,
+      "img": "/img/shop/collar-con-colgante-de-perro-globo-de-metal-0.jpg",
+      "desc": "Collar elaborado en Rodio",
+      "precioAntes": 30000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-con-colgante-de-perro-globo-de-metal-0.jpg",
+        "/img/shop/collar-con-colgante-de-perro-globo-de-metal-1.jpg",
+        "/img/shop/collar-con-colgante-de-perro-globo-de-metal-2.jpg",
+        "/img/shop/collar-con-colgante-de-perro-globo-de-metal-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-heart-te-amo-en-100-idiomas",
+      "nombre": "Collar heart te amo en 100 idiomas",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/collar-heart-te-amo-en-100-idiomas-0.jpg",
+      "desc": "Elaborado en rodio",
+      "precioAntes": 35000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-heart-te-amo-en-100-idiomas-0.jpg",
+        "/img/shop/collar-heart-te-amo-en-100-idiomas-1.jpg",
+        "/img/shop/collar-heart-te-amo-en-100-idiomas-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-lego-pareja",
+      "nombre": "collar lego pareja",
+      "categoria": "ofertas",
+      "precio": 15000,
+      "img": "/img/shop/collar-lego-pareja-0.jpg",
+      "desc": "Collar elaborado en pasta y acero inoxidable",
+      "precioAntes": 30000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-lego-pareja-0.jpg",
+        "/img/shop/collar-lego-pareja-1.jpg",
+        "/img/shop/collar-lego-pareja-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-luna-magenta",
+      "nombre": "Collar luna magenta",
+      "categoria": "ofertas",
+      "precio": 15000,
+      "img": "/img/shop/collar-luna-magenta-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio",
+      "precioAntes": 30000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-luna-magenta-0.jpg",
+        "/img/shop/collar-luna-magenta-1.jpg",
+        "/img/shop/collar-luna-magenta-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-luna-y-estrella",
+      "nombre": "Collar luna y estrella",
+      "categoria": "ofertas",
+      "precio": 12500,
+      "img": "/img/shop/collar-luna-y-estrella-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable quirúrgico y dije en rodio.",
+      "precioAntes": 25000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-luna-y-estrella-0.jpg",
+        "/img/shop/collar-luna-y-estrella-1.jpg",
+        "/img/shop/collar-luna-y-estrella-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-luna-te-amo-en-100-idiomas",
+      "nombre": "Collar lunar",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/collar-luna-te-amo-en-100-idiomas-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable. te amo 100 idiomas",
+      "precioAntes": 35000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-luna-te-amo-en-100-idiomas-0.jpg",
+        "/img/shop/collar-luna-te-amo-en-100-idiomas-1.jpg",
+        "/img/shop/collar-luna-te-amo-en-100-idiomas-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-nubes",
+      "nombre": "Collar nubes",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/collar-nubes-0.jpg",
+      "desc": "Collar elaborado en resina.",
+      "precioAntes": 35000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-nubes-0.jpg",
+        "/img/shop/collar-nubes-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-parejas-corazones",
+      "nombre": "collar parejas corazones",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/collar-parejas-corazones-0.jpg",
+      "desc": "Elaborado en rodio. te amo en 100 idiomas",
+      "precioAntes": 35000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-parejas-corazones-0.jpg",
+        "/img/shop/collar-parejas-corazones-1.jpg",
+        "/img/shop/collar-parejas-corazones-2.jpg",
+        "/img/shop/collar-parejas-corazones-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-parejas-espada-y-corazon",
+      "nombre": "Collar parejas espada y corazon",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/collar-parejas-espada-y-corazon-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y zamak.",
+      "precioAntes": 35000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-parejas-espada-y-corazon-0.jpg",
+        "/img/shop/collar-parejas-espada-y-corazon-1.jpg",
+        "/img/shop/collar-parejas-espada-y-corazon-2.jpg",
+        "/img/shop/collar-parejas-espada-y-corazon-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-san-miguel-de-arcangel-1",
+      "nombre": "Collar San Miguel de Arcangel",
+      "categoria": "ofertas",
+      "precio": 25000,
+      "img": "/img/shop/collar-san-miguel-de-arcangel-1-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "precioAntes": 50000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-san-miguel-de-arcangel-1-0.jpg",
+        "/img/shop/collar-san-miguel-de-arcangel-1-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-serpiente",
+      "nombre": "Collar serpiente",
+      "categoria": "ofertas",
+      "precio": 30000,
+      "img": "/img/shop/collar-serpiente-0.jpg",
+      "desc": "Collar serpiente elaborado en acero inoxidable.",
+      "precioAntes": 60000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-serpiente-0.jpg",
+        "/img/shop/collar-serpiente-1.jpg",
+        "/img/shop/collar-serpiente-2.jpg",
+        "/img/shop/collar-serpiente-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-tous-1",
+      "nombre": "Collar Tous",
+      "categoria": "ofertas",
+      "precio": 16000,
+      "img": "/img/shop/collar-tous-1-0.jpg",
+      "desc": "Tous",
+      "precioAntes": 32000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-tous-1-0.jpg",
+        "/img/shop/collar-tous-1-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-venado",
+      "nombre": "Collar Venado",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/collar-venado-0.jpg",
+      "desc": "Collar elaborado en rodio. te amo en 100 idiomas",
+      "precioAntes": 35000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/collar-venado-0.jpg",
+        "/img/shop/collar-venado-1.jpg",
+        "/img/shop/collar-venado-2.jpg",
+        "/img/shop/collar-venado-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "earcuff-love",
+      "nombre": "Earcuff love",
+      "categoria": "ofertas",
+      "precio": 10000,
+      "img": "/img/shop/earcuff-love-0.jpg",
+      "desc": "Elaborado en Rodio",
+      "precioAntes": 20000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/earcuff-love-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "earcuff-pequeno",
+      "nombre": "Earcuff pequeño",
+      "categoria": "ofertas",
+      "precio": 10000,
+      "img": "/img/shop/earcuff-pequeno-0.jpg",
+      "desc": "Elaborado en Rodio",
+      "precioAntes": 20000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/earcuff-pequeno-0.jpg",
+        "/img/shop/earcuff-pequeno-1.jpg",
+        "/img/shop/earcuff-pequeno-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-te-amo-mama-con-dijes-de-corazon",
+      "nombre": "Pulsera \"Te Amo Mamá\"",
+      "categoria": "ofertas",
+      "precio": 7500,
+      "img": "/img/shop/pulsera-te-amo-mama-con-dijes-de-corazon-0.jpg",
+      "desc": "Elaborada en acero inoxidable. No incluye caja",
+      "precioAntes": 15000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/pulsera-te-amo-mama-con-dijes-de-corazon-0.jpg",
+        "/img/shop/pulsera-te-amo-mama-con-dijes-de-corazon-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-ajustable-con-cuentas-de-colores-variados",
+      "nombre": "Pulsera energetica",
+      "categoria": "ofertas",
+      "precio": 17500,
+      "img": "/img/shop/pulsera-ajustable-con-cuentas-de-colores-variados-0.jpg",
+      "desc": "Piedra natural - energeticas.",
+      "precioAntes": 35000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/pulsera-ajustable-con-cuentas-de-colores-variados-0.jpg",
+        "/img/shop/pulsera-ajustable-con-cuentas-de-colores-variados-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "aretes-avion",
+      "nombre": "Topos avion",
+      "categoria": "ofertas",
+      "precio": 6000,
+      "img": "/img/shop/aretes-avion-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "precioAntes": 12000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/aretes-avion-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "topos-hojas",
+      "nombre": "Topos hojas",
+      "categoria": "ofertas",
+      "precio": 6000,
+      "img": "/img/shop/topos-hojas-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "precioAntes": 12000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/topos-hojas-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "topos-key",
+      "nombre": "Topos key",
+      "categoria": "ofertas",
+      "precio": 6000,
+      "img": "/img/shop/topos-key-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "precioAntes": 12000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/topos-key-0.jpg",
+        "/img/shop/topos-key-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "topos-latido",
+      "nombre": "Topos latido",
+      "categoria": "ofertas",
+      "precio": 6000,
+      "img": "/img/shop/topos-latido-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "precioAntes": 12000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/topos-latido-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "topos-mariposas",
+      "nombre": "Topos mariposas",
+      "categoria": "ofertas",
+      "precio": 6000,
+      "img": "/img/shop/topos-mariposas-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "precioAntes": 12000,
+      "destacado": true,
+      "imgs": [
+        "/img/shop/topos-mariposas-0.jpg",
+        "/img/shop/topos-mariposas-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-cupido",
+      "nombre": "Brazalete cupido",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-cupido-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-cupido-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-flechado",
+      "nombre": "Brazalete flechado",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-flechado-0.jpg",
+      "desc": "Brazalete elaborado en rodio.",
+      "imgs": [
+        "/img/shop/brazalete-flechado-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-herradura",
+      "nombre": "Brazalete herradura",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-herradura-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-herradura-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-mano-de-dios",
+      "nombre": "Brazalete mano de Dios",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-mano-de-dios-0.jpg",
+      "desc": "Brazalete elaborado en rodio.",
+      "imgs": [
+        "/img/shop/brazalete-mano-de-dios-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-snake-1",
+      "nombre": "Brazalete snake",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-snake-1-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-snake-1-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-timon",
+      "nombre": "Brazalete timón",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-timon-0.jpg",
+      "desc": "Brazalete elaborado en cordón y rodio.",
+      "imgs": [
+        "/img/shop/brazalete-timon-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-virgen",
+      "nombre": "Brazalete virgen",
+      "categoria": "brazaletes",
+      "precio": 30000,
+      "img": "/img/shop/brazalete-virgen-0.jpg",
+      "desc": "Brazalete elaborado en rodio.",
+      "imgs": [
+        "/img/shop/brazalete-virgen-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "cadena-letra",
+      "nombre": "cadena letra",
+      "categoria": "collares",
+      "precio": 50000,
+      "img": "/img/shop/cadena-letra-0.jpg",
+      "desc": "cadena letra",
+      "imgs": [
+        "/img/shop/cadena-letra-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "choker-hoja",
+      "nombre": "Choker hoja",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/choker-hoja-0.jpg",
+      "desc": "Collar elaborado en rodio.",
+      "imgs": [
+        "/img/shop/choker-hoja-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-luna",
+      "nombre": "Collar luna",
+      "categoria": "collares",
+      "precio": 60000,
+      "img": "/img/shop/collar-luna-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-luna-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-militar",
+      "nombre": "Collar militar",
+      "categoria": "personalizables",
+      "precio": 40000,
+      "img": "/img/shop/collar-militar-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion. COLORES DISPONIBLES. Dorado Plateado Negro",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 24,
+        "y": 42,
+        "rot": -8,
+        "size": 2.4,
+        "color": "#1a1a1a",
+        "placeholder": "Amor",
+        "anchoMax": 14,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-militar-0.jpg"
+      ],
+      "stock": 50,
+      "precioAntes": 58000,
+      "badge": "Oferta"
+    },
+    {
+      "id": "collar-mirada-personalizable",
+      "nombre": "collar mirada personalizable",
+      "categoria": "personalizables",
+      "precio": 45000,
+      "img": "/img/shop/collar-mirada-personalizable-0.jpg",
+      "desc": "collar mirada personalizable",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 58,
+        "rot": 0,
+        "size": 3.8,
+        "color": "#2a2210",
+        "placeholder": "Amor",
+        "anchoMax": 30,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-mirada-personalizable-0.jpg",
+        "/img/shop/collar-mirada-personalizable-1.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-san-benito",
+      "nombre": "Collar San Benito",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-san-benito-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable quirúrgico y dije en rodio.",
+      "imgs": [
+        "/img/shop/collar-san-benito-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-san-benito-1",
+      "nombre": "Collar san benito",
+      "categoria": "collares",
+      "precio": 28000,
+      "img": "/img/shop/collar-san-benito-1-0.jpg",
+      "desc": "Elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-san-benito-1-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-san-miguel-de-arcangel",
+      "nombre": "Collar San Miguel de arcangel",
+      "categoria": "collares",
+      "precio": 50000,
+      "img": "/img/shop/collar-san-miguel-de-arcangel-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-san-miguel-de-arcangel-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-set-fotograbado",
+      "nombre": "Collar set fotograbado",
+      "categoria": "personalizables",
+      "precio": 120000,
+      "img": "/img/shop/collar-set-fotograbado-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion. La foto cuando se suba podrá quedar sobredimensionada, sin embargo la previsualización te dará una idea de como podrá quedar, desde la edición nos encargamos que tu foto quedé perfecta en tú placa redonda",
+      "custom": [
+        {
+          "id": "foto",
+          "label": "Sube tu foto favorita",
+          "type": "file"
+        },
+        {
+          "id": "mensaje",
+          "label": "Mensaje opcional",
+          "type": "text"
+        }
+      ],
+      "preview": {
+        "tipo": "foto",
+        "imgIndex": 0,
+        "fotoZone": {
+          "x": 50,
+          "y": 50,
+          "w": 40,
+          "h": 40
+        },
+        "campo": "mensaje",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-set-fotograbado-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-signo-zodiacal",
+      "nombre": "Collar signo zodiacal",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-signo-zodiacal-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-signo-zodiacal-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-sol-centro-verde",
+      "nombre": "Collar sol centro verde",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-sol-centro-verde-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable quirúrgico y dije en rodio.",
+      "imgs": [
+        "/img/shop/collar-sol-centro-verde-0.jpg",
+        "/img/shop/collar-sol-centro-verde-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-sol-dorado",
+      "nombre": "Collar sol dorado",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-sol-dorado-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-sol-dorado-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-sol-solecito",
+      "nombre": "Collar sol solecito",
+      "categoria": "collares",
+      "precio": 25000,
+      "img": "/img/shop/collar-sol-solecito-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-sol-solecito-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-tous",
+      "nombre": "Collar Tous",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-tous-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-tous-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-trebol",
+      "nombre": "collar trebol",
+      "categoria": "collares",
+      "precio": 35000,
+      "img": "/img/shop/collar-trebol-0.jpg",
+      "desc": "collar trebol",
+      "imgs": [
+        "/img/shop/collar-trebol-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-universo",
+      "nombre": "Collar universo",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-universo-0.jpg",
+      "desc": "Collar 45cm elaborado en acero inoxidable.",
+      "imgs": [
+        "/img/shop/collar-universo-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-union",
+      "nombre": "Collar unión",
+      "categoria": "collares",
+      "precio": 35000,
+      "img": "/img/shop/collar-union-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable el par.",
+      "imgs": [
+        "/img/shop/collar-union-0.jpg",
+        "/img/shop/collar-union-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-virgen",
+      "nombre": "Collar virgen",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-virgen-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-virgen-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-vibora",
+      "nombre": "Collar víbora",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-vibora-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-vibora-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-weed",
+      "nombre": "Collar weed",
+      "categoria": "collares",
+      "precio": 30000,
+      "img": "/img/shop/collar-weed-0.jpg",
+      "desc": "Collar elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/collar-weed-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "esclava-tejida",
+      "nombre": "Esclava tejida",
+      "categoria": "personalizables",
+      "precio": 25000,
+      "img": "/img/shop/esclava-tejida-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/esclava-tejida-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "llavero-fotograbado",
+      "nombre": "Llavero fotograbado",
+      "categoria": "personalizables",
+      "precio": 65000,
+      "img": "/img/shop/llavero-fotograbado-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "foto",
+          "label": "Sube tu foto favorita",
+          "type": "file"
+        },
+        {
+          "id": "mensaje",
+          "label": "Mensaje opcional",
+          "type": "text"
+        }
+      ],
+      "preview": {
+        "tipo": "foto",
+        "imgIndex": 0,
+        "fotoZone": {
+          "x": 50,
+          "y": 50,
+          "w": 40,
+          "h": 40
+        },
+        "campo": "mensaje",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/llavero-fotograbado-0.jpg",
+        "/img/shop/llavero-fotograbado-1.png",
+        "/img/shop/llavero-fotograbado-2.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "llavero-relicario",
+      "nombre": "Llavero relicario",
+      "categoria": "personalizables",
+      "precio": 70000,
+      "img": "/img/shop/llavero-relicario-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "foto",
+          "label": "Sube tu foto favorita",
+          "type": "file"
+        },
+        {
+          "id": "nombre",
+          "label": "Texto (opcional)",
+          "type": "text"
+        }
+      ],
+      "preview": {
+        "tipo": "relicario",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 22,
+        "rot": 0,
+        "size": 3,
+        "color": "#3a3020",
+        "placeholder": "",
+        "anchoMax": 20,
+        "font": "'Great Vibes', cursive",
+        "fotoZones": [
+          {
+            "x": 50,
+            "y": 52,
+            "w": 28,
+            "h": 28
+          }
+        ],
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "campo": "nombre"
+      },
+      "imgs": [
+        "/img/shop/llavero-relicario-0.jpg",
+        "/img/shop/llavero-relicario-1.jpg",
+        "/img/shop/llavero-relicario-2.jpg",
+        "/img/shop/llavero-relicario-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera",
+      "nombre": "pulsera",
+      "categoria": "pulseras-neopreno",
+      "precio": 18000,
+      "img": "/img/shop/pulsera-0.jpg",
+      "desc": "pulsera",
+      "imgs": [
+        "/img/shop/pulsera-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-7-nudos",
+      "nombre": "Pulsera 7 nudos",
+      "categoria": "pulseras-neopreno",
+      "precio": 13000,
+      "img": "/img/shop/pulsera-7-nudos-0.jpg",
+      "desc": "Elaboradas en hilo terlénca acero inoxidable. Disponible en todos los colores",
+      "imgs": [
+        "/img/shop/pulsera-7-nudos-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-7-nudos-acero",
+      "nombre": "Pulsera 7 nudos acero",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-7-nudos-acero-0.jpg",
+      "desc": "Elaborada en acero inoxidable e hilo terlenca.",
+      "imgs": [
+        "/img/shop/pulsera-7-nudos-acero-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-administracion",
+      "nombre": "Pulsera administracion",
+      "categoria": "pulseras-neopreno",
+      "precio": 10000,
+      "img": "/img/shop/pulsera-administracion-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulsera-administracion-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-amor-puro",
+      "nombre": "Pulsera amor puro",
+      "categoria": "pulseras-neopreno",
+      "precio": 18000,
+      "img": "/img/shop/pulsera-amor-puro-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulsera-amor-puro-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-amor-toxico",
+      "nombre": "Pulsera amor toxico",
+      "categoria": "pulseras-neopreno",
+      "precio": 16000,
+      "img": "/img/shop/pulsera-amor-toxico-0.jpg",
+      "desc": "Elaborado en hilo chino y letras acrílicas.",
+      "imgs": [
+        "/img/shop/pulsera-amor-toxico-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-apple",
+      "nombre": "Pulsera apple",
+      "categoria": "pulseras-neopreno",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-apple-0.jpg",
+      "desc": "Pulsera elaborada en neopreno y acero inoxidable.",
+      "imgs": [
+        "/img/shop/pulsera-apple-0.jpg",
+        "/img/shop/pulsera-apple-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-corazon-hilo",
+      "nombre": "Pulsera corazon hilo",
+      "categoria": "pulseras-neopreno",
+      "precio": 7000,
+      "img": "/img/shop/pulsera-corazon-hilo-0.jpg",
+      "desc": "Elaborada en acero inoxidable e hilo chino.",
+      "imgs": [
+        "/img/shop/pulsera-corazon-hilo-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-dible-carril",
+      "nombre": "pulsera doble carril",
+      "categoria": "pulseras-neopreno",
+      "precio": 30000,
+      "img": "/img/shop/pulsera-dible-carril-0.jpg",
+      "desc": "Elaborada en acero inoxidable e hilo terlenca.",
+      "imgs": [
+        "/img/shop/pulsera-dible-carril-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-doble-dije",
+      "nombre": "pulsera doble dije",
+      "categoria": "personalizables",
+      "precio": 65000,
+      "img": "/img/shop/pulsera-doble-dije-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Texto del primer dije",
+          "type": "text"
+        },
+        {
+          "id": "nombre2",
+          "label": "Texto del segundo dije",
+          "type": "text"
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "capas": [
+          {
+            "campo": "nombre",
+            "x": 33,
+            "y": 70,
+            "rot": 0,
+            "size": 2.4,
+            "placeholder": "A",
+            "anchoMax": 10
+          },
+          {
+            "campo": "nombre2",
+            "x": 67,
+            "y": 70,
+            "rot": 0,
+            "size": 2.4,
+            "placeholder": "J",
+            "anchoMax": 10
+          }
+        ],
+        "color": "#1a1a1a",
+        "font": "'Jost', sans-serif",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "campo": "nombre"
+      },
+      "imgs": [
+        "/img/shop/pulsera-doble-dije-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-economista",
+      "nombre": "Pulsera Economista",
+      "categoria": "pulseras-neopreno",
+      "precio": 10000,
+      "img": "/img/shop/pulsera-economista-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulsera-economista-0.jpg",
+        "/img/shop/pulsera-economista-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-entrelazos",
+      "nombre": "pulsera entrelazos",
+      "categoria": "pulseras-neopreno",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-entrelazos-0.jpg",
+      "desc": "pulsera entrelazos",
+      "imgs": [
+        "/img/shop/pulsera-entrelazos-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-fut-pasion-1",
+      "nombre": "Pulsera Fut pasión",
+      "categoria": "pulseras-neopreno",
+      "precio": 13000,
+      "img": "/img/shop/pulsera-fut-pasion-1-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulsera-fut-pasion-1-0.jpg",
+        "/img/shop/pulsera-fut-pasion-1-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-hilo-infinito",
+      "nombre": "Pulsera hilo infinito",
+      "categoria": "pulseras-neopreno",
+      "precio": 14000,
+      "img": "/img/shop/pulsera-hilo-infinito-0.jpg",
+      "desc": "Elaborado en acero inoxidable e hilo chino.",
+      "imgs": [
+        "/img/shop/pulsera-hilo-infinito-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-letras",
+      "nombre": "pulsera iniciales",
+      "categoria": "personalizables",
+      "precio": 50000,
+      "img": "/img/shop/pulsera-letras-0.jpg",
+      "desc": "Pulseras conexión, personalizadas con las iniciales de tu persona favorita. Disponible en color: *NEGRO *ROJO",
+      "custom": [
+        {
+          "id": "iniciales",
+          "label": "Iniciales a grabar (ej: AJ)",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 54,
+        "rot": 0,
+        "size": 7,
+        "color": "#1a1a1a",
+        "placeholder": "AJ",
+        "anchoMax": 20,
+        "font": "'Jost', sans-serif",
+        "campo": "iniciales",
+        "label": "Iniciales a grabar (ej: AJ)",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/pulsera-letras-0.jpg",
+        "/img/shop/pulsera-letras-1.jpg",
+        "/img/shop/pulsera-letras-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-love",
+      "nombre": "Pulsera love",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-love-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico. PAR",
+      "imgs": [
+        "/img/shop/pulsera-love-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-medicina",
+      "nombre": "Pulsera medicina",
+      "categoria": "pulseras-neopreno",
+      "precio": 10000,
+      "img": "/img/shop/pulsera-medicina-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulsera-medicina-0.jpg",
+        "/img/shop/pulsera-medicina-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-mercadeo",
+      "nombre": "Pulsera mercadeo",
+      "categoria": "pulseras-neopreno",
+      "precio": 10000,
+      "img": "/img/shop/pulsera-mercadeo-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulsera-mercadeo-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-nudo-centros-balines",
+      "nombre": "Pulsera nudo centros balines",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-nudo-centros-balines-0.jpg",
+      "desc": "Elaboradas en hilo vibora y acero inoxidable, Precio por unidad.",
+      "imgs": [
+        "/img/shop/pulsera-nudo-centros-balines-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-ojo-turco",
+      "nombre": "Pulsera ojo turco",
+      "categoria": "pulseras-neopreno",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-ojo-turco-0.jpg",
+      "desc": "Elaboradas en acrilico e hilo chino.",
+      "imgs": [
+        "/img/shop/pulsera-ojo-turco-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-padres",
+      "nombre": "Pulsera padres",
+      "categoria": "pulseras-neopreno",
+      "precio": 12000,
+      "img": "/img/shop/pulsera-padres-0.jpg",
+      "desc": "Elaboradas en hilo chino y letras en acrilico.",
+      "imgs": [
+        "/img/shop/pulsera-padres-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-panda",
+      "nombre": "Pulsera panda",
+      "categoria": "pulseras-neopreno",
+      "precio": 18000,
+      "img": "/img/shop/pulsera-panda-0.jpg",
+      "desc": "Elaborada en letras acrílicas e hilo chino.",
+      "imgs": [
+        "/img/shop/pulsera-panda-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-pride",
+      "nombre": "Pulsera Pride",
+      "categoria": "pulseras-neopreno",
+      "precio": 9000,
+      "img": "/img/shop/pulsera-pride-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulsera-pride-0.jpg",
+        "/img/shop/pulsera-pride-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-rey-fiesta",
+      "nombre": "Pulsera rey fiesta",
+      "categoria": "pulseras-neopreno",
+      "precio": 45000,
+      "img": "/img/shop/pulsera-rey-fiesta-0.jpg",
+      "desc": "Elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-rey-fiesta-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-san-benito",
+      "nombre": "Pulsera san benito",
+      "categoria": "pulseras-neopreno",
+      "precio": 18000,
+      "img": "/img/shop/pulsera-san-benito-0.jpg",
+      "desc": "Elaborado en hilo terlenca y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-san-benito-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-sol",
+      "nombre": "Pulsera Sol",
+      "categoria": "pulseras-neopreno",
+      "precio": 18000,
+      "img": "/img/shop/pulsera-sol-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acero.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/pulsera-sol-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-spiderman",
+      "nombre": "pulsera spiderman",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-spiderman-0.jpg",
+      "desc": "pulsera spiderman",
+      "imgs": [
+        "/img/shop/pulsera-spiderman-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-trio-superpoderosas",
+      "nombre": "Pulsera trio superpoderosas",
+      "categoria": "pulseras-neopreno",
+      "precio": 26000,
+      "img": "/img/shop/pulsera-trio-superpoderosas-0.jpg",
+      "desc": "Elaboradas en acero inoxidable e hilo chino.",
+      "imgs": [
+        "/img/shop/pulsera-trio-superpoderosas-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-virgen",
+      "nombre": "Pulsera virgen",
+      "categoria": "pulseras-neopreno",
+      "precio": 18000,
+      "img": "/img/shop/pulsera-virgen-0.jpg",
+      "desc": "Elaborada en acero inoxidable e hilo chino.",
+      "imgs": [
+        "/img/shop/pulsera-virgen-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-weed",
+      "nombre": "Pulsera weed",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-weed-0.png",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-weed-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-7-balines",
+      "nombre": "Pulseras 7 balines (trio)",
+      "categoria": "pulseras-neopreno",
+      "precio": 21000,
+      "img": "/img/shop/pulsera-7-balines-0.jpg",
+      "desc": "Elaborada en acero inoxidable e hilo terlenca.",
+      "imgs": [
+        "/img/shop/pulsera-7-balines-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulseras-avion",
+      "nombre": "Pulseras avión",
+      "categoria": "pulseras-neopreno",
+      "precio": 44000,
+      "img": "/img/shop/pulseras-avion-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio. vienen el par",
+      "imgs": [
+        "/img/shop/pulseras-avion-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulseras-caras",
+      "nombre": "Pulseras Caras",
+      "categoria": "pulseras-neopreno",
+      "precio": 9000,
+      "img": "/img/shop/pulseras-caras-0.jpg",
+      "desc": "Pulsera elaborada en hilo chino y acrílico.",
+      "imgs": [
+        "/img/shop/pulseras-caras-0.jpg",
+        "/img/shop/pulseras-caras-1.jpg",
+        "/img/shop/pulseras-caras-2.jpg",
+        "/img/shop/pulseras-caras-3.jpg",
+        "/img/shop/pulseras-caras-4.jpg",
+        "/img/shop/pulseras-caras-5.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulseras-corona-amor",
+      "nombre": "Pulseras corona amor",
+      "categoria": "pulseras-neopreno",
+      "precio": 62000,
+      "img": "/img/shop/pulseras-corona-amor-0.jpg",
+      "desc": "Pulseras elaboradas en acero inoxidable y neopreno. vienen el par",
+      "imgs": [
+        "/img/shop/pulseras-corona-amor-0.jpg",
+        "/img/shop/pulseras-corona-amor-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulseras-timon",
+      "nombre": "Pulseras timon",
+      "categoria": "pulseras-neopreno",
+      "precio": 18000,
+      "img": "/img/shop/pulseras-timon-0.jpg",
+      "desc": "Elaboradas en rodio e hilo terlenca.",
+      "imgs": [
+        "/img/shop/pulseras-timon-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsersa-vibora",
+      "nombre": "Pulsersa vibora",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsersa-vibora-0.jpg",
+      "desc": "Elaborada en acero inoxidable, hilo chino y rodio",
+      "imgs": [
+        "/img/shop/pulsersa-vibora-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "tobillera-san-benito",
+      "nombre": "Tobillera San Benito",
+      "categoria": "tobilleras",
+      "precio": 18000,
+      "img": "/img/shop/tobillera-san-benito-0.jpg",
+      "desc": "Elaborado en acero inoxidable e hilo víbora.",
+      "imgs": [
+        "/img/shop/tobillera-san-benito-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "tobillera-san-miguel-arcangel-1",
+      "nombre": "Tobillera San Miguel Arcangel",
+      "categoria": "tobilleras",
+      "precio": 18000,
+      "img": "/img/shop/tobillera-san-miguel-arcangel-1-0.jpg",
+      "desc": "Elaborado en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/tobillera-san-miguel-arcangel-1-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-argollar",
+      "nombre": "Collar argollas",
+      "categoria": "personalizables",
+      "precio": 80000,
+      "img": "/img/shop/collar-argollar-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables (precio por par)",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 42,
+        "y": 72,
+        "rot": -22,
+        "size": 1.9,
+        "color": "#2a2418",
+        "placeholder": "Amor",
+        "anchoMax": 11,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-argollar-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-barra",
+      "nombre": "collar barra",
+      "categoria": "personalizables",
+      "precio": 60000,
+      "img": "/img/shop/collar-barra-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 90,
+        "size": 3.2,
+        "color": "#1a1a1a",
+        "placeholder": "Amor",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-barra-0.jpg"
+      ],
+      "stock": 50,
+      "badge": "Oferta"
+    },
+    {
+      "id": "collar-carta",
+      "nombre": "Collar carta",
+      "categoria": "personalizables",
+      "precio": 60000,
+      "img": "/img/shop/collar-carta-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "custom": [
+        {
+          "id": "mensaje",
+          "label": "Frase a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Sube tu foto favorita",
+          "type": "file"
+        }
+      ],
+      "preview": {
+        "tipo": "carta",
+        "imgIndex": 4,
+        "x": 36,
+        "y": 48,
+        "rot": 0,
+        "size": 3.6,
+        "color": "#1a1610",
+        "placeholder": "Te amo",
+        "anchoMax": 22,
+        "font": "'Jost', sans-serif",
+        "fotoZone": {
+          "x": 57,
+          "y": 44,
+          "w": 22,
+          "h": 30
+        },
+        "campo": "mensaje",
+        "label": "Frase a grabar",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-carta-0.jpg",
+        "/img/shop/collar-carta-1.jpg",
+        "/img/shop/collar-carta-2.jpg",
+        "/img/shop/collar-carta-3.jpg",
+        "/img/shop/collar-carta-4.jpg"
+      ],
+      "stock": 50,
+      "precioAntes": 75000
+    },
+    {
+      "id": "collar-doble-dije",
+      "nombre": "Collar doble dije",
+      "categoria": "personalizables",
+      "precio": 80000,
+      "img": "/img/shop/collar-doble-dije-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Texto del primer dije",
+          "type": "text"
+        },
+        {
+          "id": "nombre2",
+          "label": "Texto del segundo dije",
+          "type": "text"
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "capas": [
+          {
+            "campo": "nombre",
+            "x": 33,
+            "y": 70,
+            "rot": 0,
+            "size": 2.4,
+            "placeholder": "A",
+            "anchoMax": 10
+          },
+          {
+            "campo": "nombre2",
+            "x": 67,
+            "y": 70,
+            "rot": 0,
+            "size": 2.4,
+            "placeholder": "J",
+            "anchoMax": 10
+          }
+        ],
+        "color": "#1a1a1a",
+        "font": "'Jost', sans-serif",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "campo": "nombre"
+      },
+      "imgs": [
+        "/img/shop/collar-doble-dije-0.jpg",
+        "/img/shop/collar-doble-dije-1.jpg",
+        "/img/shop/collar-doble-dije-2.jpg",
+        "/img/shop/collar-doble-dije-3.jpg"
+      ],
+      "stock": 50,
+      "fotoRequerida": true
+    },
+    {
+      "id": "collar-iman",
+      "nombre": "Collar iman",
+      "categoria": "personalizables",
+      "precio": 60000,
+      "img": "/img/shop/collar-iman-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 52,
+        "rot": 0,
+        "size": 2.6,
+        "color": "#2a2210",
+        "placeholder": "♥",
+        "anchoMax": 12,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-iman-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-iman-plateado",
+      "nombre": "Collar iman plateado",
+      "categoria": "personalizables",
+      "precio": 60000,
+      "img": "/img/shop/collar-iman-plateado-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 52,
+        "rot": 0,
+        "size": 2.6,
+        "color": "#2a2210",
+        "placeholder": "♥",
+        "anchoMax": 12,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-iman-plateado-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-militar-promesa",
+      "nombre": "Collar militar promesa",
+      "categoria": "personalizables",
+      "precio": 70000,
+      "img": "/img/shop/collar-militar-promesa-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 24,
+        "y": 42,
+        "rot": -8,
+        "size": 2.4,
+        "color": "#1a1a1a",
+        "placeholder": "Amor",
+        "anchoMax": 14,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-militar-promesa-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-militar-rolex",
+      "nombre": "Collar militar rolex",
+      "categoria": "personalizables",
+      "precio": 40000,
+      "img": "/img/shop/collar-militar-rolex-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion. COLORES DISPONIBLES, Dorado. Negro. Plateado.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 24,
+        "y": 42,
+        "rot": -8,
+        "size": 2.4,
+        "color": "#1a1a1a",
+        "placeholder": "Amor",
+        "anchoMax": 14,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-militar-rolex-0.jpg",
+        "/img/shop/collar-militar-rolex-1.png",
+        "/img/shop/collar-militar-rolex-2.png",
+        "/img/shop/collar-militar-rolex-3.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "collar-mini-placa-militar",
+      "nombre": "Collar mini placa militar",
+      "categoria": "personalizables",
+      "precio": 35000,
+      "img": "/img/shop/collar-mini-placa-militar-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 66,
+        "rot": 0,
+        "size": 5.5,
+        "color": "#2a2210",
+        "placeholder": "S",
+        "anchoMax": 22,
+        "font": "'Great Vibes', cursive",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/collar-mini-placa-militar-0.jpg",
+        "/img/shop/collar-mini-placa-militar-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-corazon-tejido",
+      "nombre": "Pulsera corazon tejido",
+      "categoria": "personalizables",
+      "precio": 28000,
+      "img": "/img/shop/pulsera-corazon-tejido-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/pulsera-corazon-tejido-0.jpg",
+        "/img/shop/pulsera-corazon-tejido-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-cuero-dije",
+      "nombre": "Pulsera cuero dije",
+      "categoria": "personalizables",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-cuero-dije-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/pulsera-cuero-dije-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-dije-centro",
+      "nombre": "Pulsera dije centro",
+      "categoria": "personalizables",
+      "precio": 65000,
+      "img": "/img/shop/pulsera-dije-centro-0.png",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginación.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 64,
+        "rot": 0,
+        "size": 5,
+        "color": "#2a2210",
+        "placeholder": "S",
+        "anchoMax": 22,
+        "font": "'Great Vibes', cursive",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/pulsera-dije-centro-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-esclava",
+      "nombre": "Pulsera esclava",
+      "categoria": "personalizables",
+      "precio": 55000,
+      "img": "/img/shop/pulsera-esclava-0.jpg",
+      "desc": "Par de esclavas personalizadas. Personalizables con fechas, frases, canciones. Disponibles en: *Dorado *Plateado",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/pulsera-esclava-0.jpg",
+        "/img/shop/pulsera-esclava-1.png",
+        "/img/shop/pulsera-esclava-2.png"
+      ],
+      "stock": 50,
+      "badge": "Oferta"
+    },
+    {
+      "id": "pulsera-esclava-cuero",
+      "nombre": "Pulsera esclava cuero",
+      "categoria": "personalizables",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-esclava-cuero-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/pulsera-esclava-cuero-0.jpg",
+        "/img/shop/pulsera-esclava-cuero-1.jpg",
+        "/img/shop/pulsera-esclava-cuero-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-estelar",
+      "nombre": "Pulsera estelar",
+      "categoria": "personalizables",
+      "precio": 42000,
+      "img": "/img/shop/pulsera-estelar-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginación. Cada fecha de nacimiento tiene una alineación de estrellas única, escribe tu fecha y lleva contigo la constelación que te identifica.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 64,
+        "rot": 0,
+        "size": 5,
+        "color": "#2a2210",
+        "placeholder": "S",
+        "anchoMax": 22,
+        "font": "'Great Vibes', cursive",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/pulsera-estelar-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-iman-camuflada",
+      "nombre": "Pulsera iman camuflada",
+      "categoria": "personalizables",
+      "precio": 60000,
+      "img": "/img/shop/pulsera-iman-camuflada-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 52,
+        "rot": 0,
+        "size": 2.6,
+        "color": "#2a2210",
+        "placeholder": "♥",
+        "anchoMax": 12,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/pulsera-iman-camuflada-0.jpg",
+        "/img/shop/pulsera-iman-camuflada-1.jpg",
+        "/img/shop/pulsera-iman-camuflada-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-iman-tejido",
+      "nombre": "Pulsera iman tejido",
+      "categoria": "personalizables",
+      "precio": 55000,
+      "img": "/img/shop/pulsera-iman-tejido-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "imgIndex": 0,
+        "x": 50,
+        "y": 52,
+        "rot": 0,
+        "size": 2.6,
+        "color": "#2a2210",
+        "placeholder": "♥",
+        "anchoMax": 12,
+        "font": "'Jost', sans-serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/pulsera-iman-tejido-0.jpg",
+        "/img/shop/pulsera-iman-tejido-1.jpg",
+        "/img/shop/pulsera-iman-tejido-2.png",
+        "/img/shop/pulsera-iman-tejido-3.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "relicarios-individuales",
+      "nombre": "Relicarios individuales",
+      "categoria": "personalizables",
+      "precio": 45000,
+      "img": "/img/shop/relicarios-individuales-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion. precio x 1 unidad cada una viene para 2 fotos 1 frase.",
+      "custom": [
+        {
+          "id": "foto",
+          "label": "Sube tu foto favorita",
+          "type": "file"
+        },
+        {
+          "id": "nombre",
+          "label": "Texto en la tapa (opcional)",
+          "type": "text"
+        }
+      ],
+      "preview": {
+        "tipo": "relicario",
+        "imgIndex": 1,
+        "x": 50,
+        "y": 22,
+        "rot": 0,
+        "size": 3,
+        "color": "#3a3020",
+        "placeholder": "",
+        "anchoMax": 20,
+        "font": "'Great Vibes', cursive",
+        "fotoZones": [
+          {
+            "x": 38,
+            "y": 46,
+            "w": 18,
+            "h": 18
+          },
+          {
+            "x": 62,
+            "y": 46,
+            "w": 18,
+            "h": 18
+          }
+        ],
+        "campo": "nombre",
+        "label": "Texto en la tapa (opcional)",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1
+      },
+      "imgs": [
+        "/img/shop/relicarios-individuales-0.jpg",
+        "/img/shop/relicarios-individuales-1.jpg",
+        "/img/shop/relicarios-individuales-2.jpg",
+        "/img/shop/relicarios-individuales-3.webp",
+        "/img/shop/relicarios-individuales-4.jpg"
+      ],
+      "stock": 50,
+      "precioAntes": 72000,
+      "badge": "Oferta",
+      "fotoRequerida": true
+    },
+    {
+      "id": "pulsera-3-neopreno",
+      "nombre": "Pulsera 3 neopreno",
+      "categoria": "pulseras-neopreno",
+      "precio": 30000,
+      "img": "/img/shop/pulsera-3-neopreno-0.jpg",
+      "desc": "Elaborado en rodio y neopreno.",
+      "imgs": [
+        "/img/shop/pulsera-3-neopreno-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-amor-infinito",
+      "nombre": "Pulsera Amor Infinito",
+      "categoria": "pulseras-neopreno",
+      "precio": 55000,
+      "img": "/img/shop/pulsera-amor-infinito-0.jpg",
+      "desc": "Pulseras elaboradas en acero inoxidable, rodio y neopreno. Dos pulseras con diseño de infinito que simbolizan amor, amistad y unión eterna.",
+      "imgs": [
+        "/img/shop/pulsera-amor-infinito-0.jpg",
+        "/img/shop/pulsera-amor-infinito-1.jpg",
+        "/img/shop/pulsera-amor-infinito-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-america",
+      "nombre": "Pulsera américa",
+      "categoria": "pulseras-neopreno",
+      "precio": 28000,
+      "img": "/img/shop/pulsera-america-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-america-0.jpg",
+        "/img/shop/pulsera-america-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-ancla-cuero",
+      "nombre": "Pulsera ancla cuero",
+      "categoria": "pulseras-neopreno",
+      "precio": 70000,
+      "img": "/img/shop/pulsera-ancla-cuero-0.jpg",
+      "desc": "Elaborada en acero inoxidable. hilo víbora.",
+      "imgs": [
+        "/img/shop/pulsera-ancla-cuero-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-balines",
+      "nombre": "Pulsera balines",
+      "categoria": "pulseras-neopreno",
+      "precio": 28000,
+      "img": "/img/shop/pulsera-balines-0.jpg",
+      "desc": "Pulsera balines",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/pulsera-balines-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-balitista",
+      "nombre": "Pulsera balitista",
+      "categoria": "pulseras-neopreno",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-balitista-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/pulsera-balitista-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-balon",
+      "nombre": "Pulsera balón",
+      "categoria": "pulseras-neopreno",
+      "precio": 23000,
+      "img": "/img/shop/pulsera-balon-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-balon-0.jpg",
+        "/img/shop/pulsera-balon-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-barca",
+      "nombre": "Pulsera barca",
+      "categoria": "pulseras-neopreno",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-barca-0.png",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/pulsera-barca-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-black-dead",
+      "nombre": "Pulsera black dead",
+      "categoria": "pulseras-neopreno",
+      "precio": 32000,
+      "img": "/img/shop/pulsera-black-dead-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-black-dead-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-bola-fiesta",
+      "nombre": "Pulsera bola fiesta",
+      "categoria": "pulseras-neopreno",
+      "precio": 28000,
+      "img": "/img/shop/pulsera-bola-fiesta.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-bola-fiesta.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-colors-party",
+      "nombre": "Pulsera colors party",
+      "categoria": "pulseras-neopreno",
+      "precio": 50000,
+      "img": "/img/shop/pulsera-colors-party-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-colors-party-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-concha",
+      "nombre": "Pulsera concha",
+      "categoria": "pulseras-neopreno",
+      "precio": 23000,
+      "img": "/img/shop/pulsera-concha-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-concha-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-corona",
+      "nombre": "Pulsera corona",
+      "categoria": "pulseras-neopreno",
+      "precio": 40000,
+      "img": "/img/shop/pulsera-corona-0.png",
+      "desc": "Pulsera elaborada con neopreno y acero inoxidable. Doble dije especial para ese caballero en tu vida.",
+      "imgs": [
+        "/img/shop/pulsera-corona-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-ejecutiva",
+      "nombre": "Pulsera ejecutiva",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-ejecutiva-0.jpg",
+      "desc": "Pulsera elaborada en neopreno y acero inoxidable, Hilo terlénca.",
+      "imgs": [
+        "/img/shop/pulsera-ejecutiva-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-gancho",
+      "nombre": "Pulsera gancho",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-gancho-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-gancho-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-girl",
+      "nombre": "Pulsera girl",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-girl-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-girl-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-gladiador",
+      "nombre": "Pulsera gladiador",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-gladiador-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-gladiador-0.jpg",
+        "/img/shop/pulsera-gladiador-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-horse",
+      "nombre": "Pulsera horse",
+      "categoria": "pulseras-neopreno",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-horse-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-horse-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-infinito-azul",
+      "nombre": "Pulsera infinito azul",
+      "categoria": "pulseras-neopreno",
+      "precio": 30000,
+      "img": "/img/shop/pulsera-infinito-azul-0.jpg",
+      "desc": "Pulsera elaborada en neopreno y acero inoxidable, Hilo terlénca.",
+      "destacado": true,
+      "badge": "Más vendido",
+      "imgs": [
+        "/img/shop/pulsera-infinito-azul-0.jpg",
+        "/img/shop/pulsera-infinito-azul-1.jpg",
+        "/img/shop/pulsera-infinito-azul-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-letra-calavera",
+      "nombre": "Pulsera letra calavera",
+      "categoria": "pulseras-neopreno",
+      "precio": 35000,
+      "img": "/img/shop/pulsera-letra-calavera-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-letra-calavera-0.jpg",
+        "/img/shop/pulsera-letra-calavera-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-mano-de-dios",
+      "nombre": "Pulsera mano de Dios",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-mano-de-dios-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-mano-de-dios-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-oring-corazon",
+      "nombre": "Pulsera oring corazón",
+      "categoria": "pulseras-neopreno",
+      "precio": 40000,
+      "img": "/img/shop/pulsera-oring-corazon-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-oring-corazon-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-pasion",
+      "nombre": "Pulsera pasión",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-pasion-0.jpg",
+      "desc": "Pulsera elaborada en neopreno y acero inoxidable, Hilo terlénca.",
+      "imgs": [
+        "/img/shop/pulsera-pasion-0.jpg",
+        "/img/shop/pulsera-pasion-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-pistola",
+      "nombre": "Pulsera pistola",
+      "categoria": "pulseras-neopreno",
+      "precio": 37000,
+      "img": "/img/shop/pulsera-pistola-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-pistola-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-placa-amor",
+      "nombre": "Pulsera placa amor",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-placa-amor-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-placa-amor-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-pre",
+      "nombre": "Pulsera pre",
+      "categoria": "pulseras-neopreno",
+      "precio": 38000,
+      "img": "/img/shop/pulsera-pre-0.jpg",
+      "desc": "Pulsera elaborada en neopreno y acero inoxidable, Hilo terlénca.",
+      "imgs": [
+        "/img/shop/pulsera-pre-0.jpg",
+        "/img/shop/pulsera-pre-1.jpg",
+        "/img/shop/pulsera-pre-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-red-weed",
+      "nombre": "Pulsera red weed",
+      "categoria": "pulseras-neopreno",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-red-weed-0.jpg",
+      "desc": "Pulsera elaborada en neopreno y acero inoxidable, Hilo terlénca.",
+      "imgs": [
+        "/img/shop/pulsera-red-weed-0.jpg",
+        "/img/shop/pulsera-red-weed-1.jpg",
+        "/img/shop/pulsera-red-weed-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-rolex-pre",
+      "nombre": "Pulsera rolex pre",
+      "categoria": "pulseras-neopreno",
+      "precio": 31000,
+      "img": "/img/shop/pulsera-rolex-pre-0.jpg",
+      "desc": "Pulsera elaborada en neopreno y acero inoxidable, Hilo terlénca.",
+      "imgs": [
+        "/img/shop/pulsera-rolex-pre-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-set",
+      "nombre": "Pulsera set",
+      "categoria": "pulseras-neopreno",
+      "precio": 40000,
+      "img": "/img/shop/pulsera-set-0.jpg",
+      "desc": "Elaborado en acero inoxidable e hillo terlenca set anillo y pulsera tejida.",
+      "imgs": [
+        "/img/shop/pulsera-set-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-signo-vital",
+      "nombre": "Pulsera signo vital",
+      "categoria": "pulseras-neopreno",
+      "precio": 30000,
+      "img": "/img/shop/pulsera-signo-vital-0.png",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-signo-vital-0.png"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-suerte",
+      "nombre": "Pulsera suerte",
+      "categoria": "pulseras-neopreno",
+      "precio": 30000,
+      "img": "/img/shop/pulsera-suerte-0.jpg",
+      "desc": "Elaborado en acero inoxidable, neopreno y rodio.",
+      "imgs": [
+        "/img/shop/pulsera-suerte-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulseras-corona",
+      "nombre": "Pulseras corona",
+      "categoria": "pulseras-neopreno",
+      "precio": 65000,
+      "img": "/img/shop/pulseras-corona-0.jpg",
+      "desc": "Pulseras elaboradas en acero inoxidable y neopreno. vienen el par",
+      "imgs": [
+        "/img/shop/pulseras-corona-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulseras-corona-personalizada",
+      "nombre": "Pulseras corona personalizada",
+      "categoria": "pulseras-neopreno",
+      "precio": 65000,
+      "img": "/img/shop/pulseras-corona-personalizada-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/pulseras-corona-personalizada-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulseras-esclava",
+      "nombre": "Pulseras esclava",
+      "categoria": "pulseras-neopreno",
+      "precio": 60000,
+      "img": "/img/shop/pulseras-esclava-0.jpg",
+      "desc": "Elaborado en acero inoxidable. personalizables a la imaginacion.",
+      "custom": [
+        {
+          "id": "nombre",
+          "label": "Nombre o mensaje a grabar",
+          "type": "text"
+        },
+        {
+          "id": "foto",
+          "label": "Foto o referencia para el grabado (opcional)",
+          "type": "file",
+          "opcional": true
+        }
+      ],
+      "preview": {
+        "mockup": "/img/shop/pulsera-esclava-preview.png",
+        "imgIndex": 0,
+        "x": 50,
+        "y": 50,
+        "rot": 0,
+        "size": 4.2,
+        "color": "#3a3020",
+        "placeholder": "María",
+        "anchoMax": 28,
+        "font": "'Cormorant Garamond', serif",
+        "campo": "nombre",
+        "fonts": [
+          {
+            "n": "Manuscrita",
+            "f": "'Great Vibes', cursive"
+          },
+          {
+            "n": "Imprenta",
+            "f": "'Cormorant Garamond', serif"
+          },
+          {
+            "n": "Casual",
+            "f": "'Jost', sans-serif"
+          }
+        ],
+        "sizeMul": 1,
+        "displayImg": "/img/shop/pulsera-esclava-preview.png"
+      },
+      "imgs": [
+        "/img/shop/pulseras-esclava-0.jpg",
+        "/img/shop/pulseras-esclava-1.jpg",
+        "/img/shop/pulseras-esclava-2.jpg",
+        "/img/shop/pulseras-esclava-3.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-amatista-tejida",
+      "nombre": "Pulsera amatista tejida",
+      "categoria": "pulseras-tejidas",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-amatista-tejida-0.jpg",
+      "desc": "Elaborada en acero inoxidable.",
+      "imgs": [
+        "/img/shop/pulsera-amatista-tejida-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-tejida-jade",
+      "nombre": "Pulsera tejida jade",
+      "categoria": "pulseras-tejidas",
+      "precio": 25000,
+      "img": "/img/shop/pulsera-tejida-jade-0.jpg",
+      "desc": "Elaborada en acero inoxidable y piedra natural.",
+      "imgs": [
+        "/img/shop/pulsera-tejida-jade-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "pulsera-tejida-leones",
+      "nombre": "Pulsera tejida leones",
+      "categoria": "pulseras-tejidas",
+      "precio": 10000,
+      "img": "/img/shop/pulsera-tejida-leones-0.jpg",
+      "desc": "Elaborada en hilo chino y letras acrilicas.",
+      "imgs": [
+        "/img/shop/pulsera-tejida-leones-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "handmade-colombian-flag-soccer-ball-charm-bracelet",
+      "nombre": "Pulsera la sele",
+      "categoria": "seleccion-colombia",
+      "precio": 35000,
+      "img": "/img/shop/handmade-colombian-flag-soccer-ball-charm-bracelet-0.jpg",
+      "desc": "Celebra tu pasión por el fútbol colombiano con este set exclusivo. Incluye una pulsera con los colores patrios elaborada con hilo chino, rodio, acero inoxidable y neopreno + caja tematica seleccion colombia.",
+      "imgs": [
+        "/img/shop/handmade-colombian-flag-soccer-ball-charm-bracelet-0.jpg",
+        "/img/shop/handmade-colombian-flag-soccer-ball-charm-bracelet-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "colombian-football-fan-bracelet-and-sticker-set",
+      "nombre": "Pulsera seleccion Colombia",
+      "categoria": "seleccion-colombia",
+      "precio": 35000,
+      "img": "/img/shop/colombian-football-fan-bracelet-and-sticker-set-0.jpg",
+      "desc": "Celebra tu pasión por el fútbol colombiano con este set exclusivo. Incluye una pulsera con los colores patrios elaborada con hilo chino, rodio, acero inoxidable y neopreno + caja tematica seleccion colombia.",
+      "imgs": [
+        "/img/shop/colombian-football-fan-bracelet-and-sticker-set-0.jpg",
+        "/img/shop/colombian-football-fan-bracelet-and-sticker-set-1.jpg",
+        "/img/shop/colombian-football-fan-bracelet-and-sticker-set-2.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "colombian-football-fan-gift-box-set",
+      "nombre": "Pulsera tricolor",
+      "categoria": "seleccion-colombia",
+      "precio": 22500,
+      "img": "/img/shop/colombian-football-fan-gift-box-set-0.jpg",
+      "desc": "Celebra tu pasión por el fútbol colombiano con este set exclusivo. Incluye una pulsera tejida con los colores patrios elaborada en hilo chino , neopreno y rodio + caja tematica seleccion colombia. . Este paquete de accesorios está diseñado para el verdadero hincha de la Selecc…",
+      "imgs": [
+        "/img/shop/colombian-football-fan-gift-box-set-0.jpg",
+        "/img/shop/colombian-football-fan-gift-box-set-1.jpg",
+        "/img/shop/colombian-football-fan-gift-box-set-2.jpg",
+        "/img/shop/colombian-football-fan-gift-box-set-3.jpg",
+        "/img/shop/colombian-football-fan-gift-box-set-4.jpg",
+        "/img/shop/colombian-football-fan-gift-box-set-5.jpg",
+        "/img/shop/colombian-football-fan-gift-box-set-6.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "anillo-princesa-te-amo-100-idiomas",
+      "nombre": "Anillo princesa Te amo 100 idiomas",
+      "categoria": "te-amo-100-idiomas",
+      "precio": 40000,
+      "img": "/img/shop/anillo-princesa-te-amo-100-idiomas-0.jpg",
+      "desc": "Anillo princesa Te amo 100 idiomas",
+      "imgs": [
+        "/img/shop/anillo-princesa-te-amo-100-idiomas-0.jpg",
+        "/img/shop/anillo-princesa-te-amo-100-idiomas-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "brazalete-te-amo-100-idiomas-diferentes",
+      "nombre": "Brazalete Te amo 100 idiomas diferentes",
+      "categoria": "te-amo-100-idiomas",
+      "precio": 40000,
+      "img": "/img/shop/brazalete-te-amo-100-idiomas-diferentes-0.jpg",
+      "desc": "Brazalete elaborado en hilo y acero inoxidable.",
+      "imgs": [
+        "/img/shop/brazalete-te-amo-100-idiomas-diferentes-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "tobillera-7-nudos-proteccion",
+      "nombre": "Tobillera 7 nudos protección",
+      "categoria": "tobilleras",
+      "precio": 15000,
+      "img": "/img/shop/tobillera-7-nudos-proteccion-0.jpg",
+      "desc": "Elaborado en hilo terlenca y acero inoxidable",
+      "imgs": [
+        "/img/shop/tobillera-7-nudos-proteccion-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "tobillera-mar-1",
+      "nombre": "Tobillera Mar",
+      "categoria": "tobilleras",
+      "precio": 15000,
+      "img": "/img/shop/tobillera-mar-1-0.jpg",
+      "desc": "Tobillera elaborada en acero inoxidable y rodio",
+      "imgs": [
+        "/img/shop/tobillera-mar-1-0.jpg",
+        "/img/shop/tobillera-mar-1-1.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "tobillera-premium-1",
+      "nombre": "Tobillera premium",
+      "categoria": "tobilleras",
+      "precio": 33000,
+      "img": "/img/shop/tobillera-premium-1-0.jpg",
+      "desc": "Tobillera elaborada en acero inoxidable y rodio",
+      "imgs": [
+        "/img/shop/tobillera-premium-1-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "tobillera-san-benito-1",
+      "nombre": "Tobillera San Benito",
+      "categoria": "tobilleras",
+      "precio": 18000,
+      "img": "/img/shop/tobillera-san-benito-1-0.jpg",
+      "desc": "Elaborado en acero inoxidable e hilo víbora",
+      "imgs": [
+        "/img/shop/tobillera-san-benito-1-0.jpg"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "tobillera-san-miguel-arcangel",
+      "nombre": "Tobillera San Miguel Arcangel",
+      "categoria": "tobilleras",
+      "precio": 15000,
+      "img": "/img/shop/tobillera-san-miguel-arcangel-0.jpg",
+      "desc": "Tobillera elaborada en acero inoxidable y rodio.",
+      "imgs": [
+        "/img/shop/tobillera-san-miguel-arcangel-0.jpg"
+      ],
+      "stock": 50
+    }
+  ]
+}

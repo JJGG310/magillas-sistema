@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel — MAGILLAS ®</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- ── Login ── -->
+<div class="login-wrap" id="pantalla-login">
+  <form class="login-card" id="form-login">
+    <div class="login-head">
+      <span class="logo-script">Magillas</span>
+      <span class="beads" aria-hidden="true"><i class="b-red"></i><i class="b-gold"></i><i class="b-blue"></i></span>
+    </div>
+    <h1>Panel de administración</h1>
+    <div class="campo">
+      <label for="email">Correo</label>
+      <input type="email" id="email" autocomplete="username" required>
+    </div>
+    <div class="campo">
+      <label for="clave">Contraseña</label>
+      <input type="password" id="clave" autocomplete="current-password" required>
+    </div>
+    <button class="btn btn-primary" type="submit" id="btn-entrar">Entrar</button>
+    <button class="btn btn-sm" type="button" id="btn-recuperar">Olvidé mi contraseña</button>
+    <div id="login-msg" role="status" aria-live="polite"></div>
+  </form>
+</div>
+
+<!-- ── Panel ── -->
+<div id="pantalla-panel" hidden>
+  <div class="topbar">
+    <span class="logo-script">Magillas</span>
+    <span class="topbar-sp"></span>
+    <small id="quien"></small>
+    <button class="btn btn-sm" id="btn-salir" style="border-color:var(--crema);color:var(--crema)">Salir</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-vista="productos">Productos</button>
+    <button class="tab" data-vista="contenido">Contenido del sitio</button>
+  </div>
+
+  <main>
+    <!-- Productos -->
+    <section id="vista-productos">
+      <div class="toolbar">
+        <input type="search" id="buscar" placeholder="Buscar por nombre…">
+        <select id="filtro-cat"><option value="">Todas las categorías</option></select>
+        <label class="check"><input type="checkbox" id="solo-inactivos"> Solo ocultos</label>
+        <span class="contador" id="contador"></span>
+        <button class="btn btn-gold btn-sm" id="btn-nuevo">+ Nuevo producto</button>
+      </div>
+      <div class="lista" id="lista-productos"><p class="cargando">Cargando catálogo…</p></div>
+    </section>
+
+    <!-- Contenido -->
+    <section id="vista-contenido" hidden>
+      <p class="contador" style="margin-bottom:1rem">
+        Textos y ajustes de la tienda. Los cambios se ven en la web en menos de un minuto.
+      </p>
+      <div class="bloques" id="lista-bloques"></div>
+    </section>
+  </main>
+</div>
+
+<!-- ── Editor de producto ── -->
+<div class="overlay" id="overlay-producto" hidden>
+  <div class="editor" role="dialog" aria-modal="true" aria-label="Editar producto">
+    <div class="editor-head">
+      <h2 id="editor-titulo">Editar producto</h2>
+      <button class="cerrar" data-cerrar aria-label="Cerrar">&times;</button>
+    </div>
+    <div class="editor-body" id="editor-body"></div>
+    <div class="editor-foot">
+      <button class="btn btn-danger btn-sm" id="btn-borrar">Eliminar</button>
+      <span style="flex:1"></span>
+      <button class="btn" data-cerrar>Cancelar</button>
+      <button class="btn btn-primary" id="btn-guardar">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Editor de contenido ── -->
+<div class="overlay" id="overlay-bloque" hidden>
+  <div class="editor" role="dialog" aria-modal="true" aria-label="Editar contenido">
+    <div class="editor-head">
+      <h2 id="bloque-titulo">Editar</h2>
+      <button class="cerrar" data-cerrar aria-label="Cerrar">&times;</button>
+    </div>
+    <div class="editor-body" id="bloque-body"></div>
+    <div class="editor-foot">
+      <span style="flex:1"></span>
+      <button class="btn" data-cerrar>Cancelar</button>
+      <button class="btn btn-primary" id="btn-guardar-bloque">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<script src="/config.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

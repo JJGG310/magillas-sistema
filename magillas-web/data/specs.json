@@ -1,0 +1,107 @@
+{
+  "collar-carta": {
+    "material": "Acero inoxidable 316L",
+    "cadena": "45 cm + 5 cm de extensión",
+    "dije": "Sobre 2×1.5 cm · Carta 1.1×1.7 cm",
+    "incluye": "Estuche de regalo + grabado sin costo extra",
+    "peso": "~8 g"
+  },
+  "collar-placa-grabada": {
+    "material": "Acero inoxidable",
+    "cadena": "45 cm + extensión",
+    "dije": "Placa grabada láser",
+    "incluye": "Estuche de regalo",
+    "peso": "~10 g"
+  },
+  "collar-barra": {
+    "material": "Acero inoxidable",
+    "cadena": "45 cm + extensión",
+    "dije": "Barra horizontal grabada",
+    "incluye": "Estuche de regalo",
+    "peso": "~9 g"
+  },
+  "collar-argollar": {
+    "material": "Acero inoxidable",
+    "cadena": "45 cm + extensión",
+    "dije": "Argolla con grabado",
+    "incluye": "Estuche de regalo",
+    "peso": "~8 g"
+  },
+  "collar-doble-dije": {
+    "material": "Acero inoxidable",
+    "cadena": "45 cm + extensión",
+    "dije": "Dos dijes personalizables",
+    "incluye": "Estuche de regalo",
+    "peso": "~12 g"
+  },
+  "collar-militar": {
+    "material": "Acero inoxidable",
+    "cadena": "45 cm + extensión",
+    "dije": "Placa estilo militar",
+    "incluye": "Estuche de regalo",
+    "peso": "~11 g"
+  },
+  "pulsera-esclava": {
+    "material": "Acero inoxidable",
+    "cadena": "Pulsera rígida ajustable",
+    "dije": "Placa central grabada",
+    "incluye": "Estuche de regalo",
+    "peso": "~15 g"
+  },
+  "pulsera-letras": {
+    "material": "Acero inoxidable / mostacilla",
+    "cadena": "Ajustable 16–22 cm",
+    "dije": "Letras o iniciales",
+    "incluye": "Empaque de regalo",
+    "peso": "~6 g"
+  },
+  "anillo-plateado": {
+    "material": "Acero inoxidable plateado",
+    "cadena": "Tallas 6 a 12",
+    "dije": "Anillo grabado",
+    "incluye": "Estuche de regalo",
+    "peso": "~4 g"
+  },
+  "relicarios-individuales": {
+    "material": "Acero inoxidable",
+    "cadena": "45 cm + extensión",
+    "dije": "Relicario con foto",
+    "incluye": "Estuche + película protectora",
+    "peso": "~10 g"
+  },
+  "collar-corazon-cupido": {
+    "material": "Acero inoxidable",
+    "cadena": "45 cm + extensión",
+    "dije": "Corazón grabado",
+    "incluye": "Estuche de regalo",
+    "peso": "~8 g"
+  },
+  "collar-corazon-esmeralda": {
+    "material": "Acero inoxidable con detalle",
+    "cadena": "45 cm + extensión",
+    "dije": "Corazón con piedra",
+    "incluye": "Estuche de regalo",
+    "peso": "~9 g"
+  },
+  "pulsera-barca": {
+    "material": "Mostacilla / acero",
+    "cadena": "Ajustable con nudo",
+    "dije": "Dije barca grabado",
+    "incluye": "Empaque de regalo",
+    "peso": "~5 g"
+  },
+  "camandula-premium": {
+    "material": "Acero inoxidable",
+    "cadena": "Cadena larga",
+    "dije": "Cuentas y cruz",
+    "incluye": "Estuche de regalo",
+    "peso": "~25 g"
+  },
+  "estuche-rosa": {
+    "material": "Cartón rígido forrado",
+    "cadena": "—",
+    "dije": "Caja regalo rosa",
+    "incluye": "Lista para obsequiar",
+    "peso": "~80 g"
+  }
+}

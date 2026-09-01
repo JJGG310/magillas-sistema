@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regalos Día del Padre personalizados — MAGILLAS ®</title>
+<meta name="description" content="Placas, esclavas y collares grabados para papá. Hecho a mano en Cali con estuche de regalo.">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/img/shop/collar-militar.jpg">
+</head>
+<body>
+<div class="announce">Día del Padre · Placas · Esclavas · Envío nacional</div>
+<header class="header">
+  <a class="logo" href="/"><span class="logo-script">Magillas</span><span class="beads"><i class="b-red"></i><i class="b-gold"></i><i class="b-blue"></i></span></a>
+  <nav class="nav"><a href="/militar.html">Militar</a><a href="/#productos">Catálogo</a></nav>
+</header>
+<section class="page-hero">
+  <h1>Regalos para papá que emocionan</h1>
+  <p class="hero-sub">Esclavas, placas y collares con grabado personalizado. Elige en la web, sube foto o referencia, y confirma por WhatsApp.</p>
+  <p><a class="btn btn-gold" href="/#quiz-regalo">Hacer el quiz de regalo</a></p>
+</section>
+<div class="landing-grid" id="landing-grid"></div>
+<footer class="footer"><p><a href="/">← Tienda</a></p></footer>
+<script>
+fetch('/api/products').then(r=>r.json()).then(c=>{
+  const ids=['collar-militar','pulsera-esclava','collar-barra','collar-placa-grabada','pulsera-letras','collar-argollar'];
+  const cop=n=>'$'+n.toLocaleString('es-CO');
+  document.getElementById('landing-grid').innerHTML=ids.map(id=>{
+    const p=c.productos.find(x=>x.id===id); if(!p) return '';
+    return `<a class="blog-card landing-card" href="/p/${p.id}"><img src="${p.img}" alt=""><h3>${p.nombre}</h3><p><strong>${cop(p.precio)}</strong></p></a>`;
+  }).join('');
+});
+</script>
+</body>
+</html>

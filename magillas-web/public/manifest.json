@@ -1,0 +1,9 @@
+{
+  "name": "MAGILLAS ® — Accesorios personalizados",
+  "short_name": "Magillas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF6F0",
+  "theme_color": "#1A1611",
+  "icons": [{ "src": "/img/shop/collar-carta.jpg", "sizes": "800x800", "type": "image/jpeg" }]
+}

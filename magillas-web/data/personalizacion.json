@@ -1,0 +1,186 @@
+{
+  "fonts": [
+    { "n": "Manuscrita", "f": "'Great Vibes', cursive" },
+    { "n": "Imprenta", "f": "'Cormorant Garamond', serif" },
+    { "n": "Casual", "f": "'Jost', sans-serif" }
+  ],
+  "plantillas": {
+    "carta": {
+      "tipo": "carta",
+      "imgIndex": 4,
+      "x": 36, "y": 48, "rot": 0, "size": 3.6, "color": "#1a1610",
+      "placeholder": "Te amo", "anchoMax": 22,
+      "font": "'Jost', sans-serif",
+      "fotoZone": { "x": 57, "y": 44, "w": 22, "h": 30 }
+    },
+    "placa": {
+      "imgIndex": 0,
+      "x": 50, "y": 62, "rot": 0, "size": 4.2, "color": "#2a2210",
+      "placeholder": "Amor", "anchoMax": 30,
+      "font": "'Cormorant Garamond', serif"
+    },
+    "placa-vertical": {
+      "imgIndex": 0,
+      "x": 50, "y": 50, "rot": 90, "size": 3.2, "color": "#1a1a1a",
+      "placeholder": "Amor", "anchoMax": 28,
+      "font": "'Cormorant Garamond', serif"
+    },
+    "placa-militar": {
+      "imgIndex": 0,
+      "x": 24, "y": 42, "rot": -8, "size": 2.4, "color": "#1a1a1a",
+      "placeholder": "Amor", "anchoMax": 14,
+      "font": "'Jost', sans-serif"
+    },
+    "argollas": {
+      "imgIndex": 0,
+      "x": 42, "y": 72, "rot": -22, "size": 1.9, "color": "#2a2418",
+      "placeholder": "Amor", "anchoMax": 11,
+      "font": "'Cormorant Garamond', serif"
+    },
+    "placa-mini": {
+      "imgIndex": 0,
+      "x": 50, "y": 64, "rot": 0, "size": 5, "color": "#2a2210",
+      "placeholder": "S", "anchoMax": 22,
+      "font": "'Great Vibes', cursive"
+    },
+    "esclava": {
+      "mockup": "/img/shop/pulsera-esclava-preview.png",
+      "imgIndex": 0,
+      "x": 50, "y": 50, "rot": 0, "size": 4.2, "color": "#3a3020",
+      "placeholder": "María", "anchoMax": 28,
+      "font": "'Cormorant Garamond', serif"
+    },
+    "relicario": {
+      "tipo": "relicario",
+      "imgIndex": 1,
+      "x": 50, "y": 22, "rot": 0, "size": 3, "color": "#3a3020",
+      "placeholder": "", "anchoMax": 20,
+      "font": "'Great Vibes', cursive",
+      "fotoZones": [
+        { "x": 38, "y": 46, "w": 18, "h": 18 },
+        { "x": 62, "y": 46, "w": 18, "h": 18 }
+      ]
+    },
+    "iman": {
+      "imgIndex": 0,
+      "x": 50, "y": 52, "rot": 0, "size": 2.6, "color": "#2a2210",
+      "placeholder": "♥", "anchoMax": 12,
+      "font": "'Jost', sans-serif"
+    },
+    "iniciales": {
+      "imgIndex": 0,
+      "x": 50, "y": 54, "rot": 0, "size": 7, "color": "#1a1a1a",
+      "placeholder": "AJ", "anchoMax": 20,
+      "font": "'Jost', sans-serif"
+    },
+    "anillo": {
+      "imgIndex": 2,
+      "x": 48, "y": 52, "rot": -14, "size": 1.7, "color": "#2a2218",
+      "placeholder": "Amor", "anchoMax": 14,
+      "font": "'Jost', sans-serif"
+    },
+    "doble-dije": {
+      "imgIndex": 0,
+      "capas": [
+        { "campo": "nombre", "x": 33, "y": 70, "rot": 0, "size": 2.4, "placeholder": "A", "anchoMax": 10 },
+        { "campo": "nombre2", "x": 67, "y": 70, "rot": 0, "size": 2.4, "placeholder": "J", "anchoMax": 10 }
+      ],
+      "color": "#1a1a1a",
+      "font": "'Jost', sans-serif"
+    },
+    "foto": {
+      "tipo": "foto",
+      "imgIndex": 0,
+      "fotoZone": { "x": 50, "y": 50, "w": 40, "h": 40 }
+    }
+  },
+  "productos": {
+    "collar-carta": {
+      "plantilla": "carta",
+      "campo": "mensaje",
+      "label": "Frase a grabar",
+      "custom": [
+        { "id": "mensaje", "label": "Frase a grabar", "type": "text" },
+        { "id": "foto", "label": "Sube tu foto favorita", "type": "file" }
+      ]
+    },
+    "collar-barra": { "plantilla": "placa-vertical", "campo": "nombre" },
+    "collar-argollar": { "plantilla": "argollas", "campo": "nombre" },
+    "collar-doble-dije": {
+      "plantilla": "doble-dije",
+      "custom": [
+        { "id": "nombre", "label": "Texto del primer dije", "type": "text" },
+        { "id": "nombre2", "label": "Texto del segundo dije", "type": "text" }
+      ]
+    },
+    "collar-iman": { "plantilla": "iman", "campo": "nombre" },
+    "collar-iman-plateado": { "plantilla": "iman", "campo": "nombre" },
+    "collar-militar-promesa": { "plantilla": "placa-militar", "campo": "nombre" },
+    "collar-militar-rolex": { "plantilla": "placa-militar", "campo": "nombre", "imgIndex": 0 },
+    "collar-mini-placa-militar": { "plantilla": "placa-mini", "campo": "nombre", "x": 50, "y": 66, "size": 5.5 },
+    "collar-militar": { "plantilla": "placa-militar", "campo": "nombre" },
+    "collar-mirada-personalizable": { "plantilla": "placa", "campo": "nombre", "y": 58, "size": 3.8 },
+    "collar-en-set": { "plantilla": "placa", "campo": "nombre" },
+    "collar-redondo-amor": { "plantilla": "placa-mini", "campo": "nombre", "placeholder": "Amor" },
+    "relicarios-individuales": {
+      "plantilla": "relicario",
+      "campo": "nombre",
+      "label": "Texto en la tapa (opcional)",
+      "custom": [
+        { "id": "foto", "label": "Sube tu foto favorita", "type": "file" },
+        { "id": "nombre", "label": "Texto en la tapa (opcional)", "type": "text" }
+      ]
+    },
+    "llavero-relicario": {
+      "plantilla": "relicario",
+      "imgIndex": 0,
+      "fotoZones": [{ "x": 50, "y": 52, "w": 28, "h": 28 }],
+      "custom": [
+        { "id": "foto", "label": "Sube tu foto favorita", "type": "file" },
+        { "id": "nombre", "label": "Texto (opcional)", "type": "text" }
+      ]
+    },
+    "pulsera-esclava": { "plantilla": "esclava", "campo": "nombre" },
+    "pulsera-esclava-cuero": { "plantilla": "esclava", "campo": "nombre" },
+    "pulsera-cuero-dije": { "plantilla": "esclava", "campo": "nombre", "mockup": "/img/shop/pulsera-esclava-preview.png" },
+    "pulseras-esclava": { "plantilla": "esclava", "campo": "nombre" },
+    "esclava-tejida": { "plantilla": "esclava", "campo": "nombre" },
+    "pulsera-dije-centro": { "plantilla": "placa-mini", "campo": "nombre" },
+    "pulsera-estelar": { "plantilla": "placa-mini", "campo": "nombre" },
+    "pulsera-iman-tejido": { "plantilla": "iman", "campo": "nombre" },
+    "pulsera-iman-camuflada": { "plantilla": "iman", "campo": "nombre" },
+    "pulsera-corazon-tejido": { "plantilla": "esclava", "campo": "nombre" },
+    "pulsera-doble-dije": {
+      "plantilla": "doble-dije",
+      "custom": [
+        { "id": "nombre", "label": "Texto del primer dije", "type": "text" },
+        { "id": "nombre2", "label": "Texto del segundo dije", "type": "text" }
+      ]
+    },
+    "pulsera-letras": {
+      "plantilla": "iniciales",
+      "campo": "iniciales",
+      "label": "Iniciales a grabar (ej: AJ)",
+      "imgIndex": 0
+    },
+    "pulsera-balitista": { "plantilla": "esclava", "campo": "nombre" },
+    "pulseras-corona-personalizada": { "plantilla": "esclava", "campo": "nombre" },
+    "anillo-plateado": { "plantilla": "anillo", "campo": "nombre", "imgIndex": 2 },
+    "collar-set-fotograbado": {
+      "plantilla": "foto",
+      "campo": "mensaje",
+      "custom": [
+        { "id": "foto", "label": "Sube tu foto favorita", "type": "file" },
+        { "id": "mensaje", "label": "Mensaje opcional", "type": "text" }
+      ]
+    },
+    "llavero-fotograbado": {
+      "plantilla": "foto",
+      "campo": "mensaje",
+      "custom": [
+        { "id": "foto", "label": "Sube tu foto favorita", "type": "file" },
+        { "id": "mensaje", "label": "Mensaje opcional", "type": "text" }
+      ]
+    }
+  }
+}

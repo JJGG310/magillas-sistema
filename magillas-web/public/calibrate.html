@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calibrar preview — Magillas admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Jost, sans-serif; background: #f5f0e8; color: #1a1611; }
+  header { padding: 1rem 1.2rem; background: #1a1611; color: #fff; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+  header select, header button { font: inherit; padding: .45rem .7rem; border-radius: 8px; border: none; }
+  main { display: grid; grid-template-columns: 1fr 320px; gap: 1rem; padding: 1rem; }
+  .stage { position: relative; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+  .stage img { width: 100%; display: block; user-select: none; }
+  .overlay { position: absolute; transform: translate(-50%, -50%) rotate(var(--rot, 0deg)); cursor: move; white-space: nowrap; color: #2a2210; mix-blend-mode: multiply; font-size: calc(var(--size, 4) * 1cqw); }
+  .zone { position: absolute; border: 2px dashed #b8923d; background: rgba(184,146,61,.12); cursor: move; }
+  aside { background: #fff; border-radius: 12px; padding: 1rem; display: flex; flex-direction: column; gap: .6rem; }
+  label { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; color: #666; }
+  input[type=range] { width: 100%; }
+  pre { font-size: .72rem; background: #f8f4ec; padding: .7rem; border-radius: 8px; overflow: auto; max-height: 220px; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <strong>Calibrador preview Zepto</strong>
+  <select id="product"></select>
+  <select id="imgIdx"></select>
+  <button id="copy">Copiar JSON</button>
+</header>
+<main>
+  <div class="stage" id="stage">
+    <img id="img" alt="">
+    <span class="overlay" id="text">Amor</span>
+    <div class="zone" id="foto" hidden></div>
+  </div>
+  <aside>
+    <div><label>X %</label><input type="range" id="x" min="0" max="100" step=".5"></div>
+    <div><label>Y %</label><input type="range" id="y" min="0" max="100" step=".5"></div>
+    <div><label>Rotación</label><input type="range" id="rot" min="-90" max="90" step="1"></div>
+    <div><label>Tamaño (cqw)</label><input type="range" id="size" min="1" max="12" step=".1"></div>
+    <div><label>Zona foto X</label><input type="range" id="fx" min="0" max="100" step=".5"></div>
+    <div><label>Zona foto Y</label><input type="range" id="fy" min="0" max="100" step=".5"></div>
+    <div><label>Zona foto W</label><input type="range" id="fw" min="5" max="60" step=".5"></div>
+    <div><label>Zona foto H</label><input type="range" id="fh" min="5" max="60" step=".5"></div>
+    <pre id="out"></pre>
+  </aside>
+</main>
+<script>
+let catalog, current, state = { x: 50, y: 50, rot: 0, size: 4, fx: 50, fy: 50, fw: 30, fh: 30 };
+const $ = id => document.getElementById(id);
+const stage = $('stage');
+const text = $('text');
+const foto = $('foto');
+
+fetch('/api/products').then(r => r.json()).then(c => {
+  catalog = c;
+  const pers = c.productos.filter(p => p.preview);
+  $('product').innerHTML = pers.map(p => `<option value="${p.id}">${p.nombre}</option>`).join('');
+  $('product').onchange = load;
+  load();
+});
+
+function load() {
+  current = catalog.productos.find(p => p.id === $('product').value);
+  const prev = current.preview;
+  const imgs = current.imgs || [current.img];
+  $('imgIdx').innerHTML = imgs.map((s, i) => `<option value="${i}">${i + 1}</option>`).join('')
+    + (prev.mockup ? '<option value="mockup">Mockup</option>' : '');
+  $('imgIdx').onchange = setImg;
+  state.x = prev.x ?? 50; state.y = prev.y ?? 50; state.rot = prev.rot ?? 0; state.size = prev.size ?? 4;
+  const z = prev.fotoZone || { x: 50, y: 50, w: 30, h: 30 };
+  state.fx = z.x; state.fy = z.y; state.fw = z.w; state.fh = z.h;
+  text.textContent = prev.placeholder || 'Amor';
+  ['x','y','rot','size','fx','fy','fw','fh'].forEach(k => { $(k).value = state[k]; $(k).oninput = () => { state[k] = +$(k).value; paint(); }; });
+  setImg();
+  drag(text, (dx, dy) => { state.x = clamp(state.x + dx / stage.clientWidth * 100, 0, 100); state.y = clamp(state.y + dy / stage.clientHeight * 100, 0, 100); paint(); });
+  drag(foto, (dx, dy) => { state.fx = clamp(state.fx + dx / stage.clientWidth * 100, 0, 100); state.fy = clamp(state.fy + dy / stage.clientHeight * 100, 0, 100); paint(); });
+}
+
+function setImg() {
+  const prev = current.preview;
+  const imgs = current.imgs || [current.img];
+  $('img').src = $('imgIdx').value === 'mockup' ? (prev.mockup || prev.displayImg) : imgs[+$('imgIdx').value];
+  foto.hidden = !(prev.fotoZone || prev.tipo === 'carta');
+  paint();
+}
+
+function paint() {
+  text.style.left = state.x + '%'; text.style.top = state.y + '%';
+  text.style.setProperty('--rot', state.rot + 'deg'); text.style.setProperty('--size', state.size);
+  foto.style.left = state.fx + '%'; foto.style.top = state.fy + '%';
+  foto.style.width = state.fw + '%'; foto.style.height = state.fh + '%';
+  foto.style.transform = 'translate(-50%, -50%)';
+  ['x','y','rot','size','fx','fy','fw','fh'].forEach(k => $(k).value = state[k]);
+  const idx = $('imgIdx').value;
+  $('out').textContent = JSON.stringify({
+    imgIndex: idx === 'mockup' ? current.preview.imgIndex : +idx,
+    x: +state.x.toFixed(1), y: +state.y.toFixed(1), rot: state.rot, size: +state.size.toFixed(1),
+    fotoZone: { x: +state.fx.toFixed(1), y: +state.fy.toFixed(1), w: +state.fw.toFixed(1), h: +state.fh.toFixed(1) }
+  }, null, 2);
+}
+
+function clamp(n, a, b) { return Math.min(b, Math.max(a, n)); }
+function drag(el, onMove) {
+  let sx, sy;
+  const start = e => { sx = e.clientX; sy = e.clientY; e.preventDefault(); };
+  const move = e => { if (sx == null) return; onMove(e.clientX - sx, e.clientY - sy); sx = e.clientX; sy = e.clientY; };
+  const end = () => { sx = sy = null; };
+  el.onmousedown = start; window.addEventListener('mousemove', move); window.addEventListener('mouseup', end);
+  el.ontouchstart = e => start(e.touches[0]);
+  window.addEventListener('touchmove', e => move(e.touches[0]), { passive: false });
+  window.addEventListener('touchend', end);
+}
+$('copy').onclick = () => navigator.clipboard.writeText($('out').textContent);
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guías de regalo — MAGILLAS ®</title>
+<meta name="description" content="Ideas de regalos personalizados, collares con foto y pulseras grabadas. Consejos desde Cali para toda Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/img/shop/collar-carta.jpg">
+</head>
+<body>
+<div class="announce">Guías y tips de regalo · MAGILLAS ®</div>
+<header class="header">
+  <a class="logo" href="/"><span class="logo-script">Magillas</span><span class="beads" aria-hidden="true"><i class="b-red"></i><i class="b-gold"></i><i class="b-blue"></i></span></a>
+  <nav class="nav"><a href="/#productos">Catálogo</a><a href="/">Inicio</a></nav>
+</header>
+
+<main id="blog-main">
+  <div class="page-hero" id="blog-hero">
+    <h1>Ideas y guías de regalo</h1>
+    <p class="hero-sub">Consejos para elegir collares, pulseras y detalles personalizados con vista previa en vivo.</p>
+  </div>
+  <div class="blog-grid" id="blog-list" style="max-width:1000px;margin:0 auto 3rem;padding:0 1rem"></div>
+  <article class="article-body" id="blog-article" hidden></article>
+</main>
+
+<footer class="footer">
+  <p><a href="/">← Volver a la tienda</a></p>
+  <p class="fine">MAGILLAS ® · Cali, Colombia</p>
+</footer>
+
+<script>
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const list = document.getElementById('blog-list');
+const article = document.getElementById('blog-article');
+const hero = document.getElementById('blog-hero');
+
+function renderArticle(a) {
+  list.hidden = true;
+  hero.hidden = true;
+  article.hidden = false;
+  document.title = a.titulo + ' — MAGILLAS ®';
+  article.innerHTML = `
+    <p><a href="/blog">← Todas las guías</a></p>
+    <time datetime="${a.fecha}">${a.fecha}</time>
+    <h1 style="font-family:var(--serif);margin:.5rem 0 1rem">${esc(a.titulo)}</h1>
+    <div class="article-content">${a.cuerpo}</div>
+    ${(a.productos||[]).length ? `<p style="margin-top:2rem"><a class="btn btn-gold btn-sm" href="/#productos">Ver productos relacionados</a></p>` : ''}`;
+}
+
+if (window.BLOG_ARTICLE) {
+  renderArticle(window.BLOG_ARTICLE);
+} else {
+  fetch('/api/blog').then(r => r.json()).then(data => {
+    const arts = data.articulos || [];
+    if (!arts.length) { list.innerHTML = '<p>No hay artículos aún.</p>'; return; }
+    list.innerHTML = arts.map(a => `
+      <a class="blog-card" href="/blog/${a.slug}">
+        <time datetime="${a.fecha}">${a.fecha}</time>
+        <h3>${esc(a.titulo)}</h3>
+        <p>${esc(a.resumen)}</p>
+        <span class="blog-link">Leer guía →</span>
+      </a>`).join('');
+  }).catch(() => { list.innerHTML = '<p>No pudimos cargar el blog.</p>'; });
+}
+</script>
+</body>
+</html>

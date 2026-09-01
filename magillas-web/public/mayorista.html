@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mayorista — MAGILLAS ® Accesorios</title>
+<meta name="description" content="Compra al por mayor collares, pulseras y accesorios personalizados. Catálogo y precios para emprendedores en Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/img/shop/collar-carta.jpg">
+</head>
+<body>
+<div class="announce">Programa mayorista · Hecho a mano en Cali</div>
+<header class="header">
+  <a class="logo" href="/"><span class="logo-script">Magillas</span><span class="beads" aria-hidden="true"><i class="b-red"></i><i class="b-gold"></i><i class="b-blue"></i></span></a>
+  <nav class="nav"><a href="/#productos">Catálogo</a><a href="/">Tienda</a></nav>
+</header>
+
+<section class="page-hero">
+  <h1>¿Quieres vender Magillas?</h1>
+  <p class="hero-sub">Accesorios personalizables con vista previa, estuche incluido y producción desde Cali. Ideal para emprendedores, tiendas de regalo y eventos corporativos.</p>
+  <p style="margin-top:1.2rem"><a class="btn btn-gold" id="btn-wa-mayorista" href="#">Escríbenos por WhatsApp</a></p>
+</section>
+
+<div class="mayorista-grid">
+  <div class="mayorista-card">
+    <h3>📦 Catálogo amplio</h3>
+    <p>Más de 200 referencias: collares, pulseras, candongas, relicarios y piezas grabadas con foto o texto.</p>
+  </div>
+  <div class="mayorista-card">
+    <h3>✨ Personalización</h3>
+    <p>Tus clientes ven el grabado en vivo en nuestra web. Tú vendes, nosotros producimos y despachamos.</p>
+  </div>
+  <div class="mayorista-card">
+    <h3>🚚 Envíos nacionales</h3>
+    <p>Despacho a tu ciudad o directo a tus clientes con Interrapidísimo y Servientrega.</p>
+  </div>
+  <div class="mayorista-card">
+    <h3>🤝 Atención dedicada</h3>
+    <p>Cotización según volumen, mínimos flexibles y soporte por WhatsApp para pedidos recurrentes.</p>
+  </div>
+</div>
+
+<section class="faq" style="max-width:720px;margin:0 auto 3rem;padding:0 1rem">
+  <h2 class="sec-title">Preguntas frecuentes mayorista</h2>
+  <div class="faq-list">
+    <details><summary>¿Cuál es el pedido mínimo?</summary><p>Depende de la línea de producto. Escríbenos por WhatsApp con lo que buscas y te enviamos tabla de precios y mínimos.</p></details>
+    <details><summary>¿Puedo poner mi marca?</summary><p>Ofrecemos empaque con estuche Magillas. Para pedidos grandes podemos conversar opciones de tarjeta o empaque neutro.</p></details>
+    <details><summary>¿Cuánto tarda la producción?</summary><p>Pedidos estándar 1–2 días hábiles; personalizados 3–5 días hábiles según volumen.</p></details>
+  </div>
+</section>
+
+<footer class="footer">
+  <p><a href="/">← Volver a la tienda</a></p>
+  <p class="fine">MAGILLAS ® · accessoriesmagillas@gmail.com</p>
+</footer>
+
+<script>
+fetch('/api/products').then(r => r.json()).then(c => {
+  const cfg = c.config || {};
+  const msg = encodeURIComponent(cfg.mayoristaMensaje || 'Hola Magillas, me interesa comprar al por mayor');
+  const wa = cfg.mayoristaWhatsapp || cfg.whatsapp || '573165864539';
+  document.getElementById('btn-wa-mayorista').href = `https://wa.me/${wa}?text=${msg}`;
+}).catch(() => {
+  document.getElementById('btn-wa-mayorista').href = 'https://wa.me/573165864539';
+});
+</script>
+</body>
+</html>

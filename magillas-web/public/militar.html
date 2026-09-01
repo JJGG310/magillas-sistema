@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regalos militares y placas grabadas — MAGILLAS ®</title>
+<meta name="description" content="Collares y pulseras con placa militar, grabado láser y vista previa. Envíos a toda Colombia desde Cali.">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/img/shop/collar-militar.jpg">
+</head>
+<body>
+<div class="announce">Placas militares · Grabado láser · Vista previa en vivo</div>
+<header class="header">
+  <a class="logo" href="/"><span class="logo-script">Magillas</span><span class="beads"><i class="b-red"></i><i class="b-gold"></i><i class="b-blue"></i></span></a>
+  <nav class="nav"><a href="/#productos">Catálogo</a><a href="/padre.html">Día del Padre</a></nav>
+</header>
+<section class="page-hero">
+  <h1>Regalos para militares y policías</h1>
+  <p class="hero-sub">Placas, collares y esclavas con grabado de nombre, rango o fecha. Sube tu foto o referencia en la tienda y revisamos el diseño antes de producir.</p>
+</section>
+<div class="landing-grid" id="landing-grid"></div>
+<section class="faq" style="max-width:720px;margin:2rem auto;padding:0 1rem">
+  <h2 class="sec-title">¿Por qué Magillas?</h2>
+  <div class="faq-list">
+    <details open><summary>¿Puedo ver el grabado antes?</summary><p>Sí. En piezas con texto escribes en la ficha y ves la vista previa en la foto del producto.</p></details>
+    <details><summary>¿Cuánto tarda?</summary><p>Personalizados: 3–5 días hábiles + envío nacional.</p></details>
+  </div>
+</section>
+<footer class="footer"><p><a href="/">← Tienda</a></p></footer>
+<script>
+fetch('/api/products').then(r=>r.json()).then(c=>{
+  const ids=['collar-militar','collar-mini-placa-militar','collar-militar-promesa','collar-militar-rolex','pulsera-esclava','pulsera-letras'];
+  const cop=n=>'$'+n.toLocaleString('es-CO');
+  document.getElementById('landing-grid').innerHTML=ids.map(id=>{
+    const p=c.productos.find(x=>x.id===id); if(!p) return '';
+    return `<a class="blog-card landing-card" href="/p/${p.id}"><img src="${p.img}" alt="" width="200" height="200"><h3>${p.nombre}</h3><p><strong>${cop(p.precio)}</strong></p></a>`;
+  }).join('');
+});
+</script>
+</body>
+</html>

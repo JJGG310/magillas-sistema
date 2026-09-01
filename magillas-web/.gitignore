@@ -1,0 +1,12 @@
+node_modules/
+.vercel
+.env
+
+# Estado en vivo de la tienda (pedidos = PII de clientes, reseñas = nombres reales).
+# La fuente real es Supabase; estos archivos son solo el respaldo local de desarrollo.
+data/orders.json
+data/orders.json.bak
+data/reviews.json
+data/newsletter.json
+data/*.bak
+data/*.tmp

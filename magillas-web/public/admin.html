@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magillas — Panel</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; background: #FAF6F0; color: #1A1611; margin: 0; padding: 1.5rem; }
+  h1 { font-size: 1.3rem; } h2 { font-size: 1.05rem; margin-top: 2rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; background: #fff; }
+  th, td { border: 1px solid #E8D9B8; padding: .45rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #F3EAD8; }
+  input, select, button { font: inherit; padding: .35rem .5rem; }
+  button { cursor: pointer; background: #B8923D; color: #fff; border: none; border-radius: 6px; }
+  .login { max-width: 340px; margin: 4rem auto; display: flex; flex-direction: column; gap: .6rem; }
+  .muted { color: #6E655A; font-size: .8rem; }
+  td small { display: block; color: #6E655A; }
+  .item-line { margin-bottom: .5rem; }
+  .item-line strong { display: block; }
+  .thumb { width: 56px; height: 56px; object-fit: cover; border-radius: 6px; border: 1px solid #E8D9B8; cursor: zoom-in; margin-top: .25rem; }
+  .thumb-lg { position: fixed; inset: 0; background: rgba(0,0,0,.75); display: flex; align-items: center; justify-content: center; z-index: 99; padding: 1rem; }
+  .thumb-lg img { max-width: min(90vw, 480px); max-height: 90vh; border-radius: 8px; }
+  .custom-tag { display: inline-block; background: #F3EAD8; padding: .1rem .35rem; border-radius: 4px; margin: .1rem .15rem 0 0; font-size: .75rem; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+const $ = s => document.querySelector(s);
+let TOKEN = sessionStorage.getItem('mg_admin') || '';
+
+async function api(path, opts = {}) {
+  const r = await fetch('/api/admin/' + path, {
+    ...opts,
+    headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + TOKEN, ...(opts.headers || {}) }
+  });
+  if (r.status === 401) { sessionStorage.removeItem('mg_admin'); TOKEN = ''; login(); throw new Error('401'); }
+  return r.json();
+}
+
+function login() {
+  $('#app').innerHTML = `
+    <div class="login">
+      <h1>Panel Magillas</h1>
+      <input type="password" id="tok" placeholder="Token de administración">
+      <button id="entrar">Entrar</button>
+      <p class="muted">El token está en el archivo .env del servidor (ADMIN_TOKEN).</p>
+    </div>`;
+  $('#entrar').onclick = () => { TOKEN = $('#tok').value.trim(); sessionStorage.setItem('mg_admin', TOKEN); cargar(); };
+}
+
+const ESTADOS = ['recibido', 'confirmado', 'elaborando', 'enviado', 'entregado'];
+const cop = n => '$' + (n || 0).toLocaleString('es-CO');
+
+function renderItems(items) {
+  return (items || []).map(i => {
+    const tags = Object.entries(i.custom || {})
+      .filter(([k]) => k !== 'foto')
+      .map(([k, v]) => `<span class="custom-tag">${esc(k)}: ${esc(v)}</span>`).join('');
+    const thumb = (i.fotoUrl || i.fotoThumb)
+      ? `<img class="thumb" src="${esc(i.fotoUrl || i.fotoThumb)}" alt="Foto personalización" loading="lazy" onclick="verFoto(this.src)">`
+      : '';
+    return `<div class="item-line"><strong>${i.qty}x ${esc(i.nombre)}</strong>${tags ? '<div>' + tags + '</div>' : ''}${thumb}</div>`;
+  }).join('');
+}
+
+function verFoto(src) {
+  const o = document.createElement('div');
+  o.className = 'thumb-lg';
+  o.innerHTML = `<img src="${src}" alt="Foto ampliada">`;
+  o.onclick = () => o.remove();
+  document.body.appendChild(o);
+}
+
+async function cargar() {
+  let pedidos;
+  try { pedidos = await api('orders'); } catch { return; }
+  const extra = await api('data');
+  $('#app').innerHTML = `
+    <h1>Pedidos (${pedidos.length})</h1>
+    <table>
+      <tr><th>Pedido</th><th>Cliente</th><th>Items</th><th>Total</th><th>Estado</th><th>Guía</th><th></th></tr>
+      ${pedidos.map(p => `
+        <tr>
+          <td><strong>${p.id}</strong><small>${new Date(p.fecha).toLocaleString('es-CO')}</small>${p.regalo ? '<small>🎁 regalo' + (p.recibe ? ' para ' + esc(p.recibe) : '') + '</small>' : ''}</td>
+          <td>${esc(p.nombre)}<small>${esc(p.telefono)} · ${esc(p.ciudad || '')}</small><small>${esc(p.direccion || '')}</small>${p.notas ? '<small>📝 ' + esc(p.notas) + '</small>' : ''}</td>
+          <td>${renderItems(p.items)}</td>
+          <td>${cop(p.total)}${p.cupon ? `<small>cupón ${esc(p.cupon)}</small>` : ''}</td>
+          <td><select data-id="${p.id}" class="sel-estado">${ESTADOS.map(e => `<option ${((p.estado || 'recibido') === e) ? 'selected' : ''}>${e}</option>`).join('')}</select></td>
+          <td><input class="inp-guia" data-id="${p.id}" value="${esc(p.guia || '')}" placeholder="# guía" size="10"><br><input class="inp-trans" data-id="${p.id}" value="${esc(p.transportadora || '')}" placeholder="transportadora" size="10"></td>
+          <td><button class="btn-save" data-id="${p.id}">Guardar</button></td>
+        </tr>`).join('')}
+    </table>
+    <h2>Newsletter (${extra.newsletter.length})</h2>
+    <p class="muted">${extra.newsletter.map(s => esc(s.email)).join(' · ') || 'Sin suscriptores aún'}</p>
+    <h2>Reseñas (${extra.reviews.length})</h2>
+    <table>${extra.reviews.map(r => `
+      <tr${r.aprobada === false ? ' style="background:#fff8e6"' : ''}>
+        <td>${esc(r.producto)}</td><td>${'★'.repeat(r.estrellas)}</td>
+        <td>${esc(r.nombre)}: ${esc(r.comentario)}${r.aprobada === false ? ' <small class="muted">(pendiente)</small>' : ''}</td>
+        <td>
+          ${r.aprobada === false ? `<button class="btn-apr" data-fecha="${r.fecha}" data-prod="${esc(r.producto)}">Aprobar</button> ` : ''}
+          <button class="btn-del-rv" data-fecha="${r.fecha}" data-prod="${esc(r.producto)}">Borrar</button>
+        </td></tr>`).join('') || '<tr><td class="muted">Sin reseñas aún</td></tr>'}
+    </table>`;
+
+  document.querySelectorAll('.btn-save').forEach(b => b.onclick = async () => {
+    const id = b.dataset.id;
+    await api('orders', { method: 'PATCH', body: JSON.stringify({
+      id,
+      estado: document.querySelector(`.sel-estado[data-id="${id}"]`).value,
+      guia: document.querySelector(`.inp-guia[data-id="${id}"]`).value.trim(),
+      transportadora: document.querySelector(`.inp-trans[data-id="${id}"]`).value.trim()
+    }) });
+    b.textContent = '✓';
+    setTimeout(() => b.textContent = 'Guardar', 1200);
+  });
+  document.querySelectorAll('.btn-apr').forEach(b => b.onclick = async () => {
+    await api('reviews', { method: 'PATCH', body: JSON.stringify({ fecha: b.dataset.fecha, producto: b.dataset.prod, aprobada: true }) });
+    cargar();
+  });
+  document.querySelectorAll('.btn-del-rv').forEach(b => b.onclick = async () => {
+    if (!confirm('¿Borrar esta reseña?')) return;
+    await api('reviews', { method: 'DELETE', body: JSON.stringify({ fecha: b.dataset.fecha, producto: b.dataset.prod }) });
+    cargar();
+  });
+}
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+TOKEN ? cargar() : login();
+</script>
+</body>
+</html>

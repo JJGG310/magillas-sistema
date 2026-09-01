@@ -1,0 +1,68 @@
+{
+  "articulos": [
+    {
+      "slug": "regalos-militares-colombia",
+      "titulo": "Regalos para militares y policías en Colombia",
+      "fecha": "2026-08-20",
+      "resumen": "Ideas de collares y placas personalizadas con grabado láser para honrar su servicio.",
+      "productos": ["collar-militar", "collar-placa-grabada", "pulsera-esclava"],
+      "cuerpo": "<p>Los accesorios con placa militar o mensaje grabado son uno de los regalos más pedidos en Cali y a nivel nacional. En Magillas personalizamos con <strong>vista previa en vivo</strong> antes de producir.</p><p>Recomendamos el collar militar o una esclava con nombre, rango o fecha de ingreso. Incluye <strong>estuche de regalo</strong> y envío a toda Colombia.</p>"
+    },
+    {
+      "slug": "collar-carta-pareja",
+      "titulo": "Collar carta: el regalo de pareja más pedido",
+      "fecha": "2026-08-18",
+      "resumen": "Por qué el collar sobre con carta grabada conquista en San Valentín y aniversarios.",
+      "productos": ["collar-carta", "collar-doble-dije"],
+      "cuerpo": "<p>El collar carta guarda un mensaje secreto que solo quien lo lleva conoce. Puedes grabar <em>Te amo</em>, una fecha o iniciales y ver cómo queda en la <strong>vista previa</strong> del sitio.</p><p>Producción: 3–5 días hábiles. Envío nacional gratis desde $150.000.</p>"
+    },
+    {
+      "slug": "collar-con-foto-relicario",
+      "titulo": "Collar con foto: relicarios que guardan recuerdos",
+      "fecha": "2026-08-15",
+      "resumen": "Cómo elegir un relicario y enviar la foto perfecta para el grabado.",
+      "productos": ["relicarios-individuales", "collar-corazon-cupido"],
+      "cuerpo": "<p>Sube tu foto en el personalizador y comprueba el resultado al instante. Usamos acero inoxidable resistente al uso diario.</p><p>Tip: elige una foto con buen contraste y rostro centrado para un acabado más nítido.</p>"
+    },
+    {
+      "slug": "pulseras-esclava-grabadas",
+      "titulo": "Pulseras esclava grabadas: guía de compra",
+      "fecha": "2026-08-12",
+      "resumen": "Dorado o plateado, qué texto grabar y cómo medir tu muñeca.",
+      "productos": ["pulsera-esclava", "pulsera-letras"],
+      "cuerpo": "<p>Las esclavas son ideales para iniciales, fechas o frases cortas. Ofrecemos opción <strong>dorado</strong> y <strong>plateado</strong> con preview del grabado.</p><p>Si dudas de la medida, escríbela en las notas del pedido o pregunta a Magui en el chat.</p>"
+    },
+    {
+      "slug": "regalos-dia-de-la-madre",
+      "titulo": "Regalos Día de la Madre personalizados",
+      "fecha": "2026-05-01",
+      "resumen": "Collares y pulseras con mensaje para mamá, abuela o madrina.",
+      "productos": ["collar-carta", "collar-barra", "pulsera-barca"],
+      "cuerpo": "<p>El regalo que más emociona combina un mensaje personal y empaque listo para entregar. Nuestros pedidos incluyen <strong>tarjeta de regalo</strong> opcional sin mostrar precios.</p>"
+    },
+    {
+      "slug": "regalos-dia-del-padre",
+      "titulo": "Regalos Día del Padre con grabado",
+      "fecha": "2026-06-10",
+      "resumen": "Placas, esclavas y collares para papá, padrino o esposo.",
+      "productos": ["collar-militar", "pulsera-esclava", "collar-placa-grabada"],
+      "cuerpo": "<p>Grabado láser en acero inoxidable, resistente y elegante. Pide con anticipación: 3–5 días de producción + envío.</p>"
+    },
+    {
+      "slug": "anillos-personalizados-tallas",
+      "titulo": "Anillos personalizados: guía de tallas",
+      "fecha": "2026-07-22",
+      "resumen": "Tallas 6 a 12, colores y cómo elegir el grabado perfecto.",
+      "productos": ["anillo-plateado"],
+      "cuerpo": "<p>Selecciona talla y color en el producto. Los anillos personalizados <strong>no tienen cambio por talla</strong> — mide con un aro o en joyería antes de comprar.</p>"
+    },
+    {
+      "slug": "comprar-al-por-mayor-accesorios",
+      "titulo": "Comprar accesorios al por mayor en Cali",
+      "fecha": "2026-08-01",
+      "resumen": "Pedidos para emprendedores, eventos y empresas con precios mayoristas.",
+      "productos": [],
+      "cuerpo": "<p>¿Tienes tienda o evento? Magillas ofrece catálogo de 224 referencias y personalización por volumen. Escríbenos por WhatsApp con cantidades y ciudad de entrega.</p><p><a href=\"/mayorista.html\">Ver página mayorista →</a></p>"
+    }
+  ]
+}

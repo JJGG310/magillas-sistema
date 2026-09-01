@@ -1,0 +1,14 @@
+{
+  "name": "magillas-web",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "sync-reviews": "python3 scripts/import-judgeme.py && python3 scripts/sync-reviews-supabase.py",
+    "roadmap:photos": "python3 scripts/enable-photo-all-personalizables.py"
+  }
+}
