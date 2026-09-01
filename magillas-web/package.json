@@ -2,6 +2,11 @@
   "name": "magillas-web",
   "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JJGG310/magillas-sistema.git",
+    "directory": "magillas-web"
+  },
   "engines": {
     "node": ">=18"
   },
