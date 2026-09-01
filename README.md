@@ -1,5 +1,7 @@
 # Magillas — sistema completo
 
+Repo: https://github.com/JJGG310/magillas-sistema
+
 Tienda online de MAGILLAS ® (accesorios personalizados, Cali) y su panel de
 administración. Dos proyectos, un solo sistema:
 

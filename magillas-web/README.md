@@ -1,5 +1,7 @@
 # Magillas Accesorios — MVP web
 
+Repo: https://github.com/JJGG310/magillas-sistema
+
 Tienda online para MAGILLAS ® (@magillas_accesorios, Cali). Catálogo con carrito,
 categorías, personalización, despachos y asistente IA (Magui, vía DeepSeek).
 

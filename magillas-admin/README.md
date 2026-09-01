@@ -1,5 +1,7 @@
 # Panel de administración — MAGILLAS ®
 
+Repo: https://github.com/JJGG310/magillas-sistema
+
 Panel para editar el catálogo y los textos de la tienda sin tocar código.
 Vive **aparte** de la tienda: proyecto de Vercel propio y subdominio propio.
 
